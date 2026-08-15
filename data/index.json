@@ -1,0 +1,7 @@
+{
+  "title": "The Adventures of Tom Sawyer",
+  "note": "サンプルデータです。PDF受領後に全章の本文データへ差し替えます。",
+  "chapters": [
+    { "num": 1, "title": "Tom and Aunt Polly (サンプル)", "file": "chapters/ch01.json", "units": 4 }
+  ]
+}

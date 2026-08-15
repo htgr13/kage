@@ -1,0 +1,50 @@
+{
+  "chapter": 1,
+  "title": "Tom and Aunt Polly (サンプル)",
+  "units": [
+    {
+      "id": "1-1",
+      "en": "Tom Sawyer lives with his Aunt Polly in a small town.",
+      "vocab": [
+        { "word": "live with ~", "pos": "動詞句", "ja": "〜といっしょに住む" },
+        { "word": "aunt", "pos": "名詞", "ja": "おば" },
+        { "word": "town", "pos": "名詞", "ja": "町" }
+      ],
+      "grammar": "三人称単数現在の -s: 主語が Tom Sawyer(私・あなた以外の1人)なので、動詞 live に s が付いて lives になります。",
+      "ja": "トム・ソーヤは小さな町でポリーおばさんといっしょに暮らしています。"
+    },
+    {
+      "id": "1-2",
+      "en": "He does not like school. He likes the river and his friends.",
+      "vocab": [
+        { "word": "school", "pos": "名詞", "ja": "学校" },
+        { "word": "river", "pos": "名詞", "ja": "川" },
+        { "word": "friend", "pos": "名詞", "ja": "友だち" }
+      ],
+      "grammar": "一般動詞の否定文: 主語が三人称単数のときは does not(doesn't)+動詞の原形。like に s が付かない点に注意します。2文目は肯定文なので likes です。",
+      "ja": "彼は学校が好きではありません。川と友だちが大好きです。"
+    },
+    {
+      "id": "1-3",
+      "en": "One day, Aunt Polly says, \"Tom! Where are you?\"",
+      "vocab": [
+        { "word": "one day", "pos": "熟語", "ja": "ある日" },
+        { "word": "say", "pos": "動詞", "ja": "言う" },
+        { "word": "Where ~?", "pos": "疑問詞", "ja": "どこに〜?" }
+      ],
+      "grammar": "疑問詞 where を使った be動詞の疑問文: Where + are + you? の語順になります。be動詞の疑問文では主語と be動詞が入れかわります。",
+      "ja": "ある日、ポリーおばさんが言います。「トム! どこにいるの?」"
+    },
+    {
+      "id": "1-4",
+      "en": "Tom is not in the house. He is in the garden.",
+      "vocab": [
+        { "word": "house", "pos": "名詞", "ja": "家" },
+        { "word": "garden", "pos": "名詞", "ja": "庭" },
+        { "word": "in ~", "pos": "前置詞", "ja": "〜の中に" }
+      ],
+      "grammar": "be動詞の否定文: is のあとに not を置いて「〜にいません」。場所を表す前置詞 in(〜の中に)もポイントです。",
+      "ja": "トムは家の中にいません。庭にいるのです。"
+    }
+  ]
+}
