@@ -6044,7 +6044,7 @@ window.BOOK_DATA = {
          "ja": "(形)やさしい、楽な"
         }
        ],
-       "grammar": "「there was no school」は There is/was 〜(〜がある・あった)の過去の文。no がつくと「学校はまったくなかった」という強い否定になる。"
+       "grammar": "and は文と文をつなぐ接続詞。there was no school は「学校がなかった」で、was は is の過去形。didn't want to〜は「〜したくなかった」という打ち消しの過去。there was の there は「そこ」ではなく、あるかないかを言うための決まった形。"
       },
       {
        "en": "At night, when he was in bed, he saw Injun Joe's face in the dark, and he couldn't sleep.",
@@ -6087,7 +6087,7 @@ window.BOOK_DATA = {
          "ja": "(動)ねむる/(名)ねむり"
         }
        ],
-       "grammar": "「he couldn't sleep」の couldn't は can の過去形 could に not がついた形。「眠ることができなかった」と、過去にできなかったことを表す。"
+       "grammar": "When he was in bed の when は「〜のとき」を表す接続詞で、あとに『主語+動詞』がまるごと続く。saw は see(見える)の過去形、couldn't は「〜できなかった」。in the dark(暗がりで)のような場所の説明は、文の終わりに置くのがふつう。"
       },
       {
        "en": "But he couldn't talk to anyone about it.",
@@ -6114,7 +6114,7 @@ window.BOOK_DATA = {
          "ja": "(前)〜について/(副)およそ"
         }
        ],
-       "grammar": "「not 〜 anyone」で「だれにも〜ない」という意味。couldn't talk to anyone は「だれにも話すことができなかった」と、否定文の中の anyone に注目。"
+       "grammar": "couldn't talk to anyone は「だれにも話せなかった」。anyone は打ち消しの文で使うと「だれも(〜ない)」の意味になる。about it の it は前の文の内容を指す。talk to+人 で「〜に話しかける」。to のあとに相手がくる。"
       }
      ]
     },
@@ -6166,7 +6166,7 @@ window.BOOK_DATA = {
          "ja": "(動)talk(話す)の過去形"
         }
        ],
-       "grammar": "sat, watched, fished, talked と一般動詞の過去形が and で並び、二人がしたことを順番に伝えている。sat のように形が変わる不規則動詞に注意。"
+       "grammar": "One hot summer's day(ある暑い夏の日)のような『いつ』は文の最初に置ける。sat, watched, fished, talked と過去形の動詞を and でならべて、したことを次々に説明している。動詞を and でつなぐと、主語 they をくり返さずに済む。"
       }
      ]
     },
@@ -6210,7 +6210,7 @@ window.BOOK_DATA = {
          "ja": "(副)どこかで"
         }
        ],
-       "grammar": "Let's+動詞の原形で「(いっしょに)〜しよう」とさそう言い方。something exciting のように、形容詞が something の後ろに来る語順にも注目。"
+       "grammar": "Let's+動詞の原形で「〜しよう」とさそう形。get away(にげ出す)、go and do(行って〜する)のように、動詞の原形がそのまま続く点に注意。somewhere は「どこかへ」。場所の名前の代わりに使える一語。"
       }
      ]
     },
@@ -6242,7 +6242,7 @@ window.BOOK_DATA = {
          "ja": "(疑)どこに"
         }
        ],
-       "grammar": "what(何)と where(どこ)は疑問詞。ここでは動詞を省いて 'But what? And where?' と一語でたずねている。会話ではこんな短い聞き方もよくする。"
+       "grammar": "But what? And where? は主語も動詞も省いた短い問いかけ。会話では前の文からわかる部分をこうして省くことが多い。会話では、たずねたい疑問詞だけを残して短く言うことができる。"
       }
      ]
     },
@@ -6270,7 +6270,7 @@ window.BOOK_DATA = {
          "ja": "(熟)家出する・逃げ出す"
         }
        ],
-       "grammar": "「Let's run away.」は Let's+動詞の原形の文。run away は2語でひとつの動詞の働きをする熟語で、「逃げ出そう」「家出しよう」とさそっている。"
+       "grammar": "'I know,' Tom said. のように、セリフのあとに『だれが言ったか』を置く書き方。Let's run away は「にげ出そう」というさそいの文。I know. はここでは「いいことを思いついた」という気持ちを表している。"
       },
       {
        "en": "Let's go and live",
@@ -6289,7 +6289,7 @@ window.BOOK_DATA = {
          "ja": "(動)住む"
         }
        ],
-       "grammar": "go and live は動詞の原形が and でつながれて「行って住む」という意味。この文はさし絵をはさんで、次の「on Jackson's Island」へと続いている。"
+       "grammar": "go and live は動詞の原形2つを and でつないだ形で「行って住む」。この文はさし絵をはさんで次の行へ続いている。and でつないだ2つめの動詞にも to はつかず、原形のまま並ぶ。"
       }
      ]
     },
@@ -6331,7 +6331,7 @@ window.BOOK_DATA = {
          "ja": "(名)tree(木)の複数形"
         }
        ],
-       "grammar": "「We can sleep out」は can+動詞の原形で「〜できる」を表す文。can のあとの動詞はいつも原形のままで、主語が変わっても形は変わらない。"
+       "grammar": "on Jackson's Island の on は場所を表す前置詞。We can sleep out は can+動詞の原形で「〜できる」。under the trees(木の下で)も場所の説明。sleep out の out は「外で」。動詞のあとにつけて意味を変えている。"
       }
      ]
     },
@@ -6375,7 +6375,7 @@ window.BOOK_DATA = {
          "ja": "(副)そこに"
         }
        ],
-       "grammar": "「Nobody lived there.」は nobody(だれも〜ない)が主語の文。not を使わなくても、nobody だけで文全体が否定の意味になるのがポイント。"
+       "grammar": "Jackson's Island was in the Mississippi は『何が(島)+どうだった(was)+どこに(in〜)』の順。Nobody lived there の nobody は1語で「だれも〜ない」を表す。three miles south of〜は「〜の南へ3マイル」。距離+方角+of で位置を表す。"
       }
      ]
     },
@@ -6423,7 +6423,7 @@ window.BOOK_DATA = {
          "ja": "(代)だれか、だれも"
         }
        ],
-       "grammar": "「don't tell your mother」は Don't+動詞の原形で「〜するな」と禁止する否定の命令文。or でつないで「〜にも…にも言うな」と範囲を広げている。"
+       "grammar": "don't+動詞の原形で「〜するな」という打ち消しの命令文。Let's ask(たのもう)がさそい、Don't tell(言うな)が禁止と、形の違いに注目。文の終わりの too は「〜も」。前の文とならべて付け加えるときに使う。"
       },
       {
        "en": "Go home and get some things to eat, and meet me here at midnight.'",
@@ -6466,7 +6466,7 @@ window.BOOK_DATA = {
          "ja": "(名)真夜中"
         }
        ],
-       "grammar": "some things to eat の to eat は「食べるための」という意味で、名詞 things を後ろから説明する to+動詞の原形(to不定詞)。命令文が and で3つ並んでいる。"
+       "grammar": "Go home, get, meet はすべて動詞の原形で始まる命令文。「家に帰って、食べ物を持って、ここで会え」と3つの指示を and でつないでいる。at midnight の at は時刻につける前置詞。日には on、月や年には in を使う。"
       }
      ]
     },
@@ -6532,7 +6532,7 @@ window.BOOK_DATA = {
          "ja": "(名)パイプ(たばこを吸う道具)"
         }
        ],
-       "grammar": "went は go、had は have の過去形。英語の過去の文は動詞を過去形に変えるだけで、主語が三人でも一人でも動詞の形は同じなのがポイント。"
+       "grammar": "So that night(だからその夜)で文を始め、three boys in a small boat が主語。in a small boat が前の boys を後ろから説明している。had は have の過去形。went down the river の down は「川を下って」という向きを表している。"
       },
       {
        "en": "When they got there, they carried everything on to the island and made a fire, under a big old tree.",
@@ -6579,7 +6579,7 @@ window.BOOK_DATA = {
          "ja": "(名)木"
         }
        ],
-       "grammar": "文の頭の When は「〜したとき」を表す接続詞。「When they got there,」のように、When+主語+動詞のまとまりを文の前半に置くことができる。"
+       "grammar": "When they got there の when が「〜したとき」を表し、後半が文の中心。carried, made と過去形の動詞が並ぶ。got there は「そこに着いた」。on to the island の on to は「〜の上へ」と動きの向きを示している。"
       },
       {
        "en": "Then they cooked some of the meat over the fire, and oh, that meat was good - the best dinner in the world!",
@@ -6630,7 +6630,7 @@ window.BOOK_DATA = {
          "ja": "(名)世界"
         }
        ],
-       "grammar": "the best dinner in the world は good の最上級 best を使った表現。「世界でいちばんの夕食」と、in the world(世界で)がくらべる範囲を示している。"
+       "grammar": "the best dinner in the world は「世界でいちばんのごちそう」。best は good の最上級で、the をつけて「いちばん〜」を表す。over the fire は「火にかけて」。over が『〜の上をおおって』を表す。"
       },
       {
        "en": "Soon, they stopped talking, their eyes closed, and they slept.",
@@ -6657,7 +6657,7 @@ window.BOOK_DATA = {
          "ja": "(動)sleep(眠る)の過去形"
         }
        ],
-       "grammar": "stopped talking は「話すのをやめた」という意味。stop のあとに続く動詞は talking のように -ing の形(動名詞)になるのがルール。"
+       "grammar": "stopped talking は「話すのをやめた」。stop のあとに動詞のing形がくると「〜するのをやめる」の意味になる。their eyes closed は「目が閉じた」。their eyes closed のように『主語+動詞』のまとまりを and でならべている。"
       }
      ]
     },
@@ -6723,7 +6723,7 @@ window.BOOK_DATA = {
          "ja": "(動)泳ぐ"
         }
        ],
-       "grammar": "文末の to swim は「泳ぐために」という目的を表す to+動詞の原形(to不定詞)。ran down to the river to swim で「泳ぎに川へかけ下りた」となる。"
+       "grammar": "woke up は wake up(目をさます)の過去形。with the sun on his head は「頭に日の光を受けて」で、with が『〜がある状態で』を表している。with a smile on his face も同じ with の形で、顔のようすを表している。"
       },
       {
        "en": "After that, they fished, and soon they had about six big fish for their breakfast.",
@@ -6766,7 +6766,7 @@ window.BOOK_DATA = {
          "ja": "(熟)朝食に・朝食として"
         }
        ],
-       "grammar": "about six big fish の about は数の前について「約〜」の意味。fish は複数でも形が変わらない名詞なので、six big fish で「6匹の大きな魚」となる。"
+       "grammar": "After that(そのあと)で場面を進めている。soon they had about six big fish は「まもなく6匹ほど手に入れた」。about は数の前で「およそ」の意味。for their breakfast の for は「朝ごはんとして」と用途を表している。"
       },
       {
        "en": "They cooked the fish on their fire and ate them all. They were very hungry.",
@@ -6805,7 +6805,7 @@ window.BOOK_DATA = {
          "ja": "(形)空腹の"
         }
        ],
-       "grammar": "「They were very hungry.」は be動詞の過去の文。主語が They なので are の過去形 were を使い、あとに形容詞 hungry を続けて状態を表している。"
+       "grammar": "ate them all の them は前に出た the fish を指す代名詞。同じ言葉のくり返しをさけるため、英語では2度目から代名詞に置きかえる。ate them all の all は them のあとに置いて「全部」を付け加える。"
       }
      ]
     },
@@ -6837,7 +6837,7 @@ window.BOOK_DATA = {
          "ja": "(名)朝食"
         }
        ],
-       "grammar": "セリフをつなげると That was a wonderful breakfast! という be動詞 was の文。said Joe happily がセリフの間に割りこむ、英語の物語らしい書き方。"
+       "grammar": "'That,' said Joe happily, 'was a wonderful breakfast!' はセリフの途中に『だれが言ったか』をはさんだ形。つなげると That was a wonderful breakfast! となる。セリフを2つに分けて言い方を書きそえると、話し手のようすが伝わる。"
       }
      ]
     },
@@ -6897,7 +6897,7 @@ window.BOOK_DATA = {
          "ja": "(名)午後"
         }
        ],
-       "grammar": "walked, swam, talked, fished と過去形の動詞がコンマと and で並び、一日にしたことを次々に伝えている。swam のような不規則な過去形に注意。"
+       "grammar": "walked, swam, talked, fished, swam と過去形をならべて、一日の行動を次々に述べている。swam は swim(泳ぐ)の過去形で不規則に変化する。came back to their fire の back は「もどって」。come back で「帰ってくる」。"
       },
       {
        "en": "Suddenly, Tom looked up and said, 'Listen. Can you hear boats?'",
@@ -6932,7 +6932,7 @@ window.BOOK_DATA = {
          "ja": "(名)boat(船)の複数形"
         }
        ],
-       "grammar": "「Can you hear boats?」は Can you 〜? の疑問文で「〜が聞こえる?」。その前の Listen. は動詞の原形で始まる命令文で「聞いて」という意味。"
+       "grammar": "Can you hear boats? は can を主語の前に出した疑問文で「〜が聞こえる?」。Listen. は動詞の原形だけの命令文で「聞いて」。Can you〜?には Yes, I can. / No, I can't. で答える。"
       }
      ]
     },
@@ -6968,7 +6968,7 @@ window.BOOK_DATA = {
          "ja": "(名)川"
         }
        ],
-       "grammar": "to look down the river の to look は「見るために」という目的を表すto不定詞。「川下を見るために島を走って横切った」と動きの理由を説明している。"
+       "grammar": "ran across the island は「島を横切って走った」。to look down the river の to+動詞の原形は「〜するために」と目的を表す。across は「横切って」。run across〜で「〜を走って横切る」となる。"
       },
       {
        "en": "There were twenty or more boats on the water. Every boat in St Petersburg was out.",
@@ -7007,7 +7007,7 @@ window.BOOK_DATA = {
          "ja": "(熟)出ている・出はらっている"
         }
        ],
-       "grammar": "There were 〜 は「〜があった」の文で、boats が複数なので were。次の文の every のあとの名詞は単数扱いなので、Every boat ... was と was になる。"
+       "grammar": "There were twenty or more boats は「〜がいた・あった」を表す There were の文。数が2つ以上なので was ではなく were を使う。twenty or more は「20かそれ以上」。or more で数に幅をもたせている。"
       }
      ]
     },
@@ -7031,7 +7031,7 @@ window.BOOK_DATA = {
          "ja": "(動)ask(たずねる)の過去形"
         }
        ],
-       "grammar": "What are they doing? は疑問詞 what+現在進行形(be動詞+動詞の-ing形)の疑問文。「今まさに何をしているところ?」と目の前の動作をたずねている。"
+       "grammar": "What are they doing? は are+主語+動詞のing形の疑問文で、「今〜している」ことをたずねている。文の先頭の What は「何を」。doing は do(する)のing形。be動詞+ing形で進行中の動作を表す。"
       }
      ]
     },
@@ -7091,7 +7091,7 @@ window.BOOK_DATA = {
          "ja": "(動)drown(おぼれ死ぬ)の過去形"
         }
        ],
-       "grammar": "They're looking for 〜 は現在進行形で「今〜を探しているところだ」。be動詞+動詞の-ing形が、ちょうど目の前で起きていることを表している。"
+       "grammar": "They're looking for〜は「〜をさがしている」という進行中の動作。when Bill Turner fell の when は「〜したとき」で、fell は fall(落ちる)の過去形。They did that の that は、前に出た『死体をさがす』という内容を指している。"
       }
      ]
     },
@@ -7119,7 +7119,7 @@ window.BOOK_DATA = {
          "ja": "(動)ask(たずねる)の過去形"
         }
        ],
-       "grammar": "Who's dead? は Who is dead? の短縮形で、疑問詞 who がそのまま主語になる疑問文。うしろに do you think がついて「〜だと思う?」とたずねている。"
+       "grammar": "Who's dead, do you think? は「だれが死んだと思う?」。Who's は Who is の短縮形で、who が主語のはたらきをしている。do you think を文の中にはさんで「〜だと思う?」とたずねている。"
       }
      ]
     },
@@ -7175,7 +7175,7 @@ window.BOOK_DATA = {
          "ja": "(熟)〜をさがしている"
         }
        ],
-       "grammar": "It's us! は It is の短縮形で「それはぼくたちだ」。They're looking for us は現在進行形で、「今まさにぼくたちを探している」ことを表している。"
+       "grammar": "I know who's dead! は know のあとに『だれが死んだのか』という文がまるごと入った形。It's us! の us は「私たち」を指す代名詞。It's us! の us は「私たち」。be動詞のあとでは I や we ではなく me や us を使う。"
       }
      ]
     },
@@ -7203,7 +7203,7 @@ window.BOOK_DATA = {
          "ja": "(名)friend(友だち)の複数形"
         }
        ],
-       "grammar": "「This was wonderful.」は be動詞の過去の文。主語の This(これ)が単数なので was を使い、あとに形容詞 wonderful を置いて感想を表している。"
+       "grammar": "This was wonderful. の This は前の場面全体を指している。looked at his friends の look at は「〜を見る」という2語で1つの動詞のはたらき。This was wonderful. のように、短い文で場面への感想をはさむことがある。"
       },
       {
        "en": "'We're famous!' he said.",
@@ -7222,7 +7222,7 @@ window.BOOK_DATA = {
          "ja": "(動)say(言う)の過去形"
         }
        ],
-       "grammar": "We're は We are の短縮形。be動詞 are のあとに形容詞 famous が続いて「ぼくたちは有名だ」と、主語の状態を伝える be動詞の文になっている。"
+       "grammar": "We're famous! は We are の短縮形を使った be動詞の文で、「私たちは有名だ」と状態を表している。famous は「有名な」という形容詞で、be動詞のあとに置いて状態を表す。"
       },
       {
        "en": "'Everybody in St Petersburg is talking about us. And they all feel sorry for us!'",
@@ -7253,7 +7253,7 @@ window.BOOK_DATA = {
          "ja": "(熟)〜をかわいそうに思う"
         }
        ],
-       "grammar": "Everybody ... is talking about us は現在進行形の文。everybody は「みんな」という意味でも単数扱いなので、be動詞が is になる点に注意しよう。"
+       "grammar": "Everybody is talking about us は is+ing形で「今〜している」を表す。Everybody は1人ずつと数えるので、動詞は are ではなく is を使う。feel sorry for〜は「〜をかわいそうに思う」という3語で1つの意味のまとまり。"
       }
      ]
     },
@@ -7305,7 +7305,7 @@ window.BOOK_DATA = {
          "ja": "(熟)was not の短縮形。〜ではなかった"
         }
        ],
-       "grammar": "did not sleep は一般動詞の過去の否定文。did not(didn't)のあとの動詞は原形 sleep に戻る。文末の wasn't は was not の短縮形。"
+       "grammar": "Night came(夜が来た)のように、時間や自然を主語にする言い方が英語にはある。when morning came は「朝になったとき」、wasn't は was not の短縮形。went to sleep は「ねむりについた」。sleep(ねむる)とは形がちがう言い方。"
       }
      ]
     },
@@ -7325,7 +7325,7 @@ window.BOOK_DATA = {
          "ja": "(動)cry(泣く、さけぶ)の過去形"
         }
        ],
-       "grammar": "Where's Tom? は Where is Tom? の短縮形。疑問詞 where+be動詞の疑問文で、「トムはどこにいるの?」と人のいる場所をたずねている。"
+       "grammar": "where's は where is の短縮形で、Where is Tom? と同じ。be動詞を主語の前に出すと「〜はどこ?」という疑問文になる。cried はここでは「泣いた」ではなく「大声で言った」の意味で使われている。"
       }
      ]
     },
@@ -7361,7 +7361,7 @@ window.BOOK_DATA = {
          "ja": "(副)そこに"
         }
        ],
-       "grammar": "There he is. は「ほら、あそこにいるよ」と指さすときの言い方。There is 〜(〜がある)とちがい、he のような代名詞は there のすぐあとに来る。"
+       "grammar": "There he is. は「ほら、あそこにいる」と指さすときの言い方。同じ There でも There is a boy.(男の子がいる)とは形も意味もちがう。but のあとが言いかけで切れているのは、話しながら気づいたため。"
       },
       {
        "en": "He's swimming across to the island now. Hey, Tom!'",
@@ -7392,7 +7392,7 @@ window.BOOK_DATA = {
          "ja": "(間)ねえ、おい"
         }
        ],
-       "grammar": "He's swimming は He is swimming の短縮形で現在進行形。文末の now(今)が、「まさに今泳いでいる最中だ」ということをはっきりさせている。"
+       "grammar": "He's swimming は is+動詞のing形で「今泳いでいる」を表す。now(今)がその意味をはっきりさせている。across to〜は「〜へ横切って」。across to the island の across は「向こう岸へ横切って」という向きを表す。"
       }
      ]
     },
@@ -7440,7 +7440,7 @@ window.BOOK_DATA = {
          "ja": "(名)窓"
         }
        ],
-       "grammar": "went は go、told は tell の過去形。どちらも -ed をつけない不規則動詞で、last night(ゆうべ)という言葉が過去の時を表している。"
+       "grammar": "I went home last night は『だれが+どうした+いつ』の順。last night(昨夜)のような『いつ』は文の終わりに置くことが多い。listened at the window の at は「窓のところで」と場所の一点を示している。"
       },
       {
        "en": "Joe, your mother was there, too, and she and Aunt Polly cried and cried. I heard some very interesting things.",
@@ -7483,7 +7483,7 @@ window.BOOK_DATA = {
          "ja": "(名)thing(もの、こと)の複数形"
         }
        ],
-       "grammar": "cried and cried は同じ過去形の動詞をくり返して「泣いて泣いて泣きどおしだった」と強調する言い方。cried は cry の y を i に変えた過去形。"
+       "grammar": "cried and cried は同じ語をくり返して「泣きに泣いた」と強めた言い方。I heard some very interesting things の heard は hear の過去形。some very interesting things のように、形容詞は名詞の前に置いてならべる。"
       },
       {
        "en": "On Sunday there's going to be a big funeral at the church - for us! And listen - I've got a wonderful idea.'",
@@ -7530,7 +7530,7 @@ window.BOOK_DATA = {
          "ja": "(名)考え"
         }
        ],
-       "grammar": "there's going to be 〜 は There is 〜(〜がある)と be going to(〜する予定だ)が合わさった形。「〜が行われる予定だ」と未来の予定を表す。"
+       "grammar": "there's going to be〜は「〜がある予定だ」とこれから起こることを表す。I've got は I have got の短縮形で「持っている」。at the church の at は建物を一つの点として見る言い方。in なら中を意識する。"
       }
      ]
     },
@@ -7562,7 +7562,7 @@ window.BOOK_DATA = {
          "ja": "(名)考え"
         }
        ],
-       "grammar": "it was a wonderful idea は be動詞 was の文。前に出てきたトムの考えを it(それ)という代名詞で受けて、「それはすばらしい考えだった」とまとめている。"
+       "grammar": "listened and laughed のように、過去形の動詞を and でならべる。it was a wonderful idea の it は前の文の『考え』を指している。yes を文の中にはさんで、書き手が話にうなずくような調子を出している。"
       }
      ]
     },
@@ -7625,7 +7625,7 @@ window.BOOK_DATA = {
          "ja": "(動)たばこを吸う"
         }
        ],
-       "grammar": "began to smoke は「吸い始めた」という意味。begin のあとに to+動詞の原形(to不定詞)が続くと、「〜することを始める」となる。"
+       "grammar": "some more fish は「もっと魚を」。fish は1匹でも何匹でも形が変わらない名詞。began to smoke は「たばこをすい始めた」。got out his pipe の get out は「取り出す」。begin to+動詞の原形は「〜し始める」。"
       }
      ]
     },
@@ -7661,7 +7661,7 @@ window.BOOK_DATA = {
          "ja": "(動)習う・覚える"
         }
        ],
-       "grammar": "Can we smoke, too? の can は「〜してもいい?」と許可を求める使い方。I want to learn は want to+動詞の原形で「〜したい」を表している。"
+       "grammar": "Can we smoke, too? は can を主語の前に出した疑問文。I want to learn の to+動詞の原形は「学ぶことを(望む)」という意味のまとまり。I want to learn の learn は「(やり方を)覚える」。to のあとは必ず原形。"
       }
      ]
     },
@@ -7705,7 +7705,7 @@ window.BOOK_DATA = {
          "ja": "(動)smoke(たばこをすう)の過去形"
         }
        ],
-       "grammar": "made pipes for Tom and Joe は「トムとジョーのためにパイプを作った」。for 〜 が「〜のために」と、だれのためにしたのかを表している。"
+       "grammar": "made pipes for Tom and Joe の for は「〜のために」。sat and smoked と過去形をならべ、3人が同時にしていたことを表している。made pipes for〜の made は make(作る)の過去形で、不規則に変化する。"
       }
      ]
     },
@@ -7741,7 +7741,7 @@ window.BOOK_DATA = {
          "ja": "(形)やさしい、楽な"
         }
        ],
-       "grammar": "like smoking は「たばこを吸うことが好き」。動詞 smoke に -ing をつけた smoking が「吸うこと」という名詞の働き(動名詞)をしている。"
+       "grammar": "I like smoking の smoking は動詞に ing をつけて「〜すること」という名前にした形。like のあとに置いて「〜するのが好きだ」を表す。It's easy! の It は smoking(たばこをすうこと)を指している。"
       }
      ]
     },
@@ -7781,7 +7781,7 @@ window.BOOK_DATA = {
          "ja": "(熟)毎日"
         }
        ],
-       "grammar": "I'm going to smoke は be going to+動詞の原形で「〜するつもりだ」という、これからの予定やつもりを表す言い方。to のあとの動詞は原形。"
+       "grammar": "I'm going to smoke every day は be going to+動詞の原形で「これから〜するつもりだ」。every day(毎日)がこれからの習慣を表している。It's nothing! は「たいしたことないよ」という決まった言い方。"
       }
      ]
     },
@@ -7829,7 +7829,7 @@ window.BOOK_DATA = {
          "ja": "(名)色(colorのイギリスつづり)"
         }
        ],
-       "grammar": "quieter and quieter は比較級を and で重ねて「だんだん静かに」と変化を表す言い方。quieter は quiet に -er をつけた比較級の形。"
+       "grammar": "quieter and quieter は比較級を2度くり返して「だんだん静かに」を表す言い方。went an interesting colour の went はここでは「〜になった」の意味。their faces went〜と、顔を主語にして変化を表している点にも注目。"
       }
      ]
     },
@@ -7883,7 +7883,7 @@ window.BOOK_DATA = {
          "ja": "(名)tree(木)の複数形"
         }
        ],
-       "grammar": "I'm going for a little walk now は形は現在進行形だが、「今から散歩に行く」というすぐ先の予定を表す使い方。now がその感じを強めている。"
+       "grammar": "go for a walk は「散歩に行く」という決まった言い方。I'm going for〜は今まさに出かけようとしているところを表している。He stood up, carefully. のように、動作のあとに『どのように』を足せる。"
       }
      ]
     },
@@ -7907,7 +7907,7 @@ window.BOOK_DATA = {
          "ja": "(副)すばやく・すぐに"
         }
        ],
-       "grammar": "Me too. は「ぼくも(そうする)」という省略した言い方。I'm going for a walk, too. と言うところを、会話ではたった2語で伝えられる。"
+       "grammar": "Me too. は「ぼくも」。I am going too. を短くした形で、会話では主語と動詞をこうして省くことが多い。quickly は「すばやく」。動詞や文の様子を説明する語で、-ly で終わるものが多い。"
       }
      ]
     },
@@ -7955,7 +7955,7 @@ window.BOOK_DATA = {
          "ja": "(副)再び・もう一度"
         }
        ],
-       "grammar": "didn't smoke は一般動詞の過去の否定文で、didn't のあとの動詞は原形 smoke に戻る。not 〜 again で「二度と〜しない」という意味になる。"
+       "grammar": "an hour later は「1時間後に」。later が『あとで』を表す。didn't smoke〜again は「二度と〜しなかった」という打ち消しの過去。an hour later のように、時間の長さ+later で「〜後に」を表す。"
       }
      ]
     },
@@ -8010,7 +8010,7 @@ window.BOOK_DATA = {
          "ja": "(名)friend(友だち)の複数形"
         }
        ],
-       "grammar": "there were no happy faces は There were 〜(〜があった)に no がついた形。no+名詞で「明るい顔はひとつもなかった」と強く打ち消している。"
+       "grammar": "there were no happy faces は There were の文の打ち消しで、「うれしそうな顔は一つもなかった」。no が名詞の前について「一つも〜ない」を表す。all the boys' friends の boys' は s のあとにアポストロフィだけをつけた形。"
       },
       {
        "en": "The minister said some very nice things about the three boys, and the boys' families cried and cried.",
@@ -8049,7 +8049,7 @@ window.BOOK_DATA = {
          "ja": "(動)cry(泣く、さけぶ)の過去形"
         }
        ],
-       "grammar": "the boys' families の boys' は、複数形 boys にアポストロフィ(')だけをつけて「少年たちの」という持ち主を表す形。boy's(単数)とのちがいに注意。"
+       "grammar": "said some very nice things about〜は「〜についてとてもよいことを言った」。about が『〜について』と話題を示している。the boys' families cried and cried も、くり返しで悲しみの深さを表している。"
       },
       {
        "en": "Everybody cried. And little Becky Thatcher did not stop crying for one second.",
@@ -8084,7 +8084,7 @@ window.BOOK_DATA = {
          "ja": "(熟)一秒の間も"
         }
        ],
-       "grammar": "did not stop crying は過去の否定文。「泣くことをやめなかった」で、stop のあとの動詞は crying と -ing形になる。for one second は「一秒間も」。"
+       "grammar": "did not stop crying は「泣くのをやめなかった」。stop のあとの crying は ing形で「泣くこと」を表す。for one second は「一秒も」。little Becky Thatcher の little は「小さな」で、幼さといとおしさを表している。"
       }
      ]
     },
@@ -8132,7 +8132,7 @@ window.BOOK_DATA = {
          "ja": "(動)hear(聞こえる)の過去形"
         }
        ],
-       "grammar": "There was a small noise は There was+単数の名詞で「〜があった」。a small noise とひとつの物音なので、be動詞は were ではなく was を使う。"
+       "grammar": "There was a small noise は「小さな物音がした」。at first(はじめは)、nobody heard it(だれも気づかなかった)と続く。at the back of〜は「〜の後ろのほうで」。at first と at のはたらきがちがう。"
       },
       {
        "en": "Then the minister looked up - and suddenly stopped speaking.",
@@ -8159,7 +8159,7 @@ window.BOOK_DATA = {
          "ja": "(熟)話すのをやめた"
         }
        ],
-       "grammar": "looked up と stopped はどちらも過去形の動詞。間のダッシュ(-)が「顔を上げた、その瞬間に止まった」という一瞬の間と驚きを表している。"
+       "grammar": "stopped speaking は「話すのをやめた」。looked up(顔を上げた)と and でつなぎ、牧師の動作を順に述べている。文の途中のダッシュは、そこで場面が急に変わったことを示している。"
       },
       {
        "en": "Everybody turned to look. Their mouths opened, and stayed open.",
@@ -8190,7 +8190,7 @@ window.BOOK_DATA = {
          "ja": "(熟)開いたままだった"
         }
        ],
-       "grammar": "turned to look の to look は「見るために」を表すto不定詞。「見ようとふり向いた」と、ふり向いた目的を to+動詞の原形が説明している。"
+       "grammar": "turned to look の to+動詞の原形は「見るために」と目的を表す。stayed open は「開いたままだった」で、stay が『〜のままでいる』の意味。Their mouths opened の opened は「開いた」。ここでは目的語をとらない使い方。"
       }
      ]
     },
@@ -8238,7 +8238,7 @@ window.BOOK_DATA = {
          "ja": "(副)それから、そのとき"
         }
        ],
-       "grammar": "ふつうは The three boys came into the church という語順だが、Into the church came 〜 と入れかえて、おどろきの登場を強調している。"
+       "grammar": "And into the church came the three dead boys は、場所を表す into the church を文の先頭に出した特別な語順。ふつうの順なら came が主語の前にはこない。Tom first, Joe next, and then Huck と、順番を表す語をならべている。"
       }
      ]
     },
@@ -8288,7 +8288,7 @@ window.BOOK_DATA = {
          "ja": "(動)begin(始める、始まる)の過去形"
         }
        ],
-       "grammar": "nobody moved or spoke は主語が nobody なので「だれも動かなかったし、話さなかった」。or でつないだ2つの動詞の両方が否定される。"
+       "grammar": "nobody moved or spoke は「だれも動きも話しもしなかった」。nobody(だれも〜ない)がすでに打ち消しなので、動詞に not をつけない。For a second は「一瞬」。for+時間の長さで「〜の間」を表す。"
       },
       {
        "en": "Aunt Polly and Joe's mother ran to the boys, and took them in their arms. Aunt Polly cried, and laughed, and cried again.",
@@ -8327,7 +8327,7 @@ window.BOOK_DATA = {
          "ja": "(副)もう一度"
         }
        ],
-       "grammar": "ran, took, cried, laughed とすべて過去形の動詞。took は take の過去形で、take 〜 in one's arms は「〜を腕に抱きしめる」という言い方。"
+       "grammar": "ran to the boys(少年たちのところへ走った)、took them in their arms(腕に抱きしめた)と、過去形の動詞で動作を順に述べている。took them in their arms の them は少年たちを指す代名詞。"
       }
      ]
     },
@@ -8367,7 +8367,7 @@ window.BOOK_DATA = {
          "ja": "(動)大好きだ、愛する"
         }
        ],
-       "grammar": "You're a bad boy は You are の短縮形を使った be動詞の文。接続詞 but(でも)が反対の内容をつないで、「悪い子だけど大好き」と気持ちを伝えている。"
+       "grammar": "You're a bad boy, but I love you! は but で反対の内容をつないだ文。You're は You are の短縮形。I love you! は『だれが+どうする+だれを』の順。you は前でも後ろでも形が同じ。"
       }
      ]
     },
@@ -8415,7 +8415,7 @@ window.BOOK_DATA = {
          "ja": "(名)人々"
         }
        ],
-       "grammar": "Sing! は動詞の原形で始まる命令文。be happy! のように、be動詞の命令文は be で始まる。「歌いなさい、そして幸せでありなさい」という呼びかけ。"
+       "grammar": "Sing, good people of St Petersburg! は動詞の原形で始まる命令文で、呼びかけをはさんでいる。be happy も「幸せでいなさい」という命令文。Oh, happy days! は動詞のない言い方で、喜びをそのまま声にしている。"
       }
      ]
     },
@@ -8455,7 +8455,7 @@ window.BOOK_DATA = {
          "ja": "(名)葬式"
         }
        ],
-       "grammar": "happiest は happy の最上級で「いちばん幸せな」。y を i に変えて -est をつける形。St Petersburg's の 's は「〜の」という持ち主を表す。"
+       "grammar": "St Petersburg's happiest funeral の happiest は happy の最上級で「いちばん幸せな」。's は「〜の」を表し、村の名前についている。for a long time は「長い間」。文の終わりに置いて動作の長さを表す。"
       }
      ]
     },
@@ -8486,7 +8486,7 @@ window.BOOK_DATA = {
          "ja": "(動)come(来る)の過去形"
         }
        ],
-       "grammar": "The weeks went by の went by は「(時間が)過ぎていった」という意味。go の過去形 went に by がついて、時の流れを表す言い方になっている。"
+       "grammar": "The weeks went by は「何週間かが過ぎていった」。go by が『時が過ぎる』を表す。came to〜は「〜へやって来た」。the judge came to〜の the は「例の(裁判の)判事」と、決まった人を指している。"
       },
       {
        "en": "On the day before Muff Potter's trial, Huck and Tom met in the street near Tom's house. Huck was unhappy.",
@@ -8529,7 +8529,7 @@ window.BOOK_DATA = {
          "ja": "(形)不幸な・浮かない"
         }
        ],
-       "grammar": "Huck was unhappy. は be動詞の過去形 was+形容詞の文。unhappy は happy に、反対の意味を表す un- がついてできた形容詞。"
+       "grammar": "On the day before〜は「〜の前の日に」。met は meet(会う)の過去形。near Tom's house が場所を後ろから説明している。in the street near Tom's house は、広い場所から狭い場所へと順に説明している。"
       }
      ]
     },
@@ -8561,7 +8561,7 @@ window.BOOK_DATA = {
          "ja": "(動)知っている"
         }
        ],
-       "grammar": "you didn't tell anyone は一般動詞の過去の否定文。didn't+動詞の原形 tell で、not 〜 anyone は「だれにも〜ない」という意味になる。"
+       "grammar": "you didn't tell anyone は「だれにも言わなかった」。didn't のあとの動詞は原形 tell にもどる点に注意。about のあとが言いかけで切れているのは、口に出すのをためらったため。"
       }
      ]
     },
@@ -8589,7 +8589,7 @@ window.BOOK_DATA = {
          "ja": "(熟)〜はどうなの?"
         }
        ],
-       "grammar": "No, I didn't. は I didn't tell anyone. を短く答えた形。What about Muff? は「マフはどうなの?」と話題を相手に向ける決まった言い方。"
+       "grammar": "No, I didn't. は I didn't tell anyone. の後半を省いた答え方。what about〜?は「〜はどうなるの?」と相手にたずねる言い方。But で始めて話題を変え、心配ごとを持ち出している。"
       },
       {
        "en": "People are saying he's the killer. And he's going to die!'",
@@ -8620,7 +8620,7 @@ window.BOOK_DATA = {
          "ja": "(動)死ぬ"
         }
        ],
-       "grammar": "he's going to die は be going to+動詞の原形の文。「(このままでは)死ぬことになる」と、これから起こりそうなことを表している。"
+       "grammar": "People are saying は are+ing形で「今〜と言っている」。he's going to die は be going to+動詞の原形で、これから起こることを表している。he's は he is の短縮形。前の he's the killer と形は同じでも、後ろの形で意味が変わる。"
       }
      ]
     },
@@ -8656,7 +8656,7 @@ window.BOOK_DATA = {
          "ja": "(動)say(言う)の過去形"
         }
        ],
-       "grammar": "we can't tell anyone は can't(〜できない)+動詞の原形の文。can の否定文でも動詞は原形のままで、「だれにも話すことができない」となる。"
+       "grammar": "can't tell anyone は「だれにも言えない」。can't のあとの動詞は原形 tell のまま。anyone は打ち消しの文で「だれにも(〜ない)」の意味になる。tell+人+about+話題 の形で「〜に…について話す」となる。"
       },
       {
        "en": "'I don't want to die, too! Do you?'",
@@ -8679,7 +8679,7 @@ window.BOOK_DATA = {
          "ja": "(副)〜もまた、〜すぎる"
         }
        ],
-       "grammar": "don't want to die は want to+動詞の原形(〜したい)の否定形で「死にたくない」。Do you? は Do you want to die? を短くした聞き返し。"
+       "grammar": "Do you? は Do you want to die? を短くした問い返し。一般動詞の疑問文は文の先頭に Do を置いてつくる。too はここでは「(ぼく)も」。打ち消しの文なので、ふつうは either を使う。"
       }
      ]
     },
@@ -8731,7 +8731,7 @@ window.BOOK_DATA = {
          "ja": "(形)悲しい、不幸な"
         }
        ],
-       "grammar": "couldn't forget は can の過去形 could の否定文で「忘れることができなかった」。ダッシュのあとに形容詞を3つ並べて顔の様子を説明している。"
+       "grammar": "Muff Potter's face の 's は「〜の」を表す。old, tired, and unhappy はその顔のようすを後ろから3つならべて説明している。in the jail の in は「中に」。ろうやに入れられている状態を表している。"
       },
       {
        "en": "And Injun Joe was a free man. It wasn't right.",
@@ -8754,7 +8754,7 @@ window.BOOK_DATA = {
          "ja": "(形)正しい"
         }
        ],
-       "grammar": "It wasn't right. の wasn't は was not の短縮形。be動詞の過去の否定文で、「それは正しくなかった」とトムの気持ちを短く言い切っている。"
+       "grammar": "It wasn't right. の It は前の文の内容全体を指している。wasn't は was not の短縮形で「〜ではなかった」。a free man の a は「一人の」。数えられる名詞の前につく。"
       }
      ]
     },
@@ -8806,7 +8806,7 @@ window.BOOK_DATA = {
          "ja": "(名)hour(1時間)の複数形"
         }
        ],
-       "grammar": "could not sleep は can の過去形 could を使った否定文。for two or three hours の for は「〜の間」と、時間の長さを表す使い方。"
+       "grammar": "came home late, and very excited は『帰ってきた+おそく+とても興奮して』の順。for two or three hours の for は「〜の間」と長さを表す。late(おそく)と very excited(とても興奮して)を and でならべている。"
       }
      ]
     },
@@ -8850,7 +8850,7 @@ window.BOOK_DATA = {
          "ja": "(副)〜もまた、〜すぎる"
         }
        ],
-       "grammar": "all the village was 〜 は「村じゅうが〜にいた」。village をひとつのまとまりと考えて be動詞は was。文末の too は「〜もまた」という意味。"
+       "grammar": "all the village was at〜は「村じゅうが〜にいた」。village(村)を1つのまとまりと考えるので、動詞は were ではなく was を使う。at Muff Potter's trial の at は「裁判の場に」と、その場にいることを表す。"
       },
       {
        "en": "Muff waited, a tired old man with a dirty face. The judge began the trial.",
@@ -8893,7 +8893,7 @@ window.BOOK_DATA = {
          "ja": "(名)裁判"
         }
        ],
-       "grammar": "a tired old man with a dirty face の with は「〜を持った・〜のある」という意味。with a dirty face で「汚れた顔をした」と人の様子を表す。"
+       "grammar": "a tired old man with a dirty face は、前の Muff を後ろから言いかえた部分。with a dirty face が「よごれた顔をした」と説明を加えている。with a dirty face の with は「〜をもった」で、人のようすを説明するときに使う。"
       }
      ]
     },
@@ -8913,7 +8913,7 @@ window.BOOK_DATA = {
          "ja": "(名)answer(答え)の複数形"
         }
        ],
-       "grammar": "動詞のない、名詞だけをくり返す文。質問と答えが延々と続く裁判の様子をリズムで表している。英語では効果をねらってこんな書き方もする。"
+       "grammar": "同じ名詞を3回くり返して、質問と答えが延々と続くようすを表している。動詞のない、名詞だけでできた特別な文。同じ語をならべた文には動詞がないが、場面のようすは十分に伝わる。"
       },
       {
        "en": "And the answers were all bad for Muff Potter.",
@@ -8932,7 +8932,7 @@ window.BOOK_DATA = {
          "ja": "(熟)〜に悪い・不利な"
         }
        ],
-       "grammar": "the answers were all bad の all は「すべて」という意味で主語の内容を強めている。answers が複数なので、be動詞は過去形の were を使う。"
+       "grammar": "the answers were all bad for〜は「答えはどれも〜に不利だった」。answers が2つ以上なので be動詞は were を使う。bad for〜は「〜にとって不利だ」。for が『〜にとって』を表している。"
       }
      ]
     },
@@ -8976,7 +8976,7 @@ window.BOOK_DATA = {
          "ja": "(名)体、死体"
         }
        ],
-       "grammar": "found は find の過去形。in the graveyard(墓地で)、next to 〜(〜のすぐそばで)と、場所を表す言葉が2つ続いて発見場所をくわしく伝えている。"
+       "grammar": "I found the knife は『だれが+どうした+何を』の基本の順。found は find(見つける)の過去形。next to〜は「〜のとなりに」。in the graveyard(墓地で)と next to〜(〜のとなりに)で、場所を二重にくわしくしている。"
       }
      ]
     },
@@ -9008,7 +9008,7 @@ window.BOOK_DATA = {
          "ja": "(動)carry(持ち歩く)の三人称単数現在形"
         }
        ],
-       "grammar": "He always carries it. は現在の文。主語が He なので動詞は carries と -es のついた形になり、always(いつも)は動詞の前に置かれている。"
+       "grammar": "He always carries it. は現在形の文。主語が He なので動詞に -s がついて carries となる(carry → carries)。that's は that is の短縮形。少しはなれたものを指すときに that を使う。"
       }
      ]
     },
@@ -9060,7 +9060,7 @@ window.BOOK_DATA = {
          "ja": "(副)そのとき"
         }
        ],
-       "grammar": "saw は see、had は have の過去形で、どちらも不規則動詞。that afternoon(あの日の午後)や then(そのとき)が、過去のいつの話かを示している。"
+       "grammar": "I saw Muff Potter in the village that afternoon は『だれが+どうした+だれを+どこで+いつ』の順。英語では場所が先、時が後にくる。with him then の with は「身につけて」。then は「そのとき」。"
       }
      ]
     },
@@ -9110,7 +9110,7 @@ window.BOOK_DATA = {
          "ja": "(動)呼ぶ"
         }
        ],
-       "grammar": "more and more unhappy は、長めの形容詞の比較級 more unhappy を重ねて「ますます暗く」と変化を表す言い方。Call 〜! は動詞の原形で始まる命令文。"
+       "grammar": "began to look more and more unhappy は「だんだん不安そうに見え始めた」。more and more で程度が増していくことを表す。Call〜!は命令文。the judge said: のあとにセリフを置く書き方。コロンが『次のように言った』を示す。"
       }
      ]
     },
@@ -9142,7 +9142,7 @@ window.BOOK_DATA = {
          "ja": "(動)知っている"
         }
        ],
-       "grammar": "What did 〜 know? は疑問詞 what+did を使った一般動詞の過去の疑問文。did を使うと、あとの動詞は knew ではなく原形 know に戻る。"
+       "grammar": "What did young Tom Sawyer know? は did を使った過去の疑問文。did があるので、そのあとの動詞は原形 know にもどる。sat up は「身をのり出した」。すわり方が変わるほど注目したことを表している。"
       },
       {
        "en": "Everybody looked at him, and waited.",
@@ -9161,7 +9161,7 @@ window.BOOK_DATA = {
          "ja": "(動)wait(待つ)の過去形"
         }
        ],
-       "grammar": "looked at him の look at は「〜を見る」という熟語で、at のあとに見る相手が来る。looked と waited は -ed のついた規則動詞の過去形。"
+       "grammar": "looked at him, and waited と過去形をならべた文。look at は2語で「〜を見る」という1つの動詞のはたらきをする。waited のあとに何を待ったかを書かず、余韻を残している。"
       }
      ]
     },
@@ -9197,7 +9197,7 @@ window.BOOK_DATA = {
          "ja": "(名)真夜中"
         }
        ],
-       "grammar": "Where were you 〜? は疑問詞 where+be動詞の過去形 were の疑問文。「あなたは(そのとき)どこにいましたか」と過去の居場所をたずねる形。"
+       "grammar": "where were you〜?は be動詞を主語の前に出した疑問文で「どこにいましたか」。on the seventeenth of June は日付、at the hour of midnight は時刻を表す。on the seventeenth of June の the seventeenth は「17日」。日付は順番を表す形で言う。"
       }
      ]
     },
@@ -9217,7 +9217,7 @@ window.BOOK_DATA = {
          "ja": "(名)墓地"
         }
        ],
-       "grammar": "I was in the graveyard. の主語と be動詞を省いて、場所だけを答えた言い方。会話や証言では、このように短く答えることがよくある。"
+       "grammar": "In the graveyard. は I was in the graveyard. の答えの部分だけを言ったもの。会話ではこうして必要な語だけで答えられる。答えの前置詞 In をそのまま残すことで、たずねられた場所に正確に答えている。"
       }
      ]
     },
@@ -9233,7 +9233,7 @@ window.BOOK_DATA = {
          "ja": "(疑)なぜ"
         }
        ],
-       "grammar": "why は「なぜ」と理由をたずねる疑問詞。ここでは Why were you there?(なぜそこにいたのか)を、疑問詞ひとつに縮めてたずねている。"
+       "grammar": "Why? の1語だけで「なぜ?」とたずねている。前の文を受けているので、それ以外の語をすべて省くことができる。Why? への答えは、次の文で to+動詞の原形(〜するために)の形で示される。"
       }
      ]
     },
@@ -9273,7 +9273,7 @@ window.BOOK_DATA = {
          "ja": "(名)ネコ"
         }
        ],
-       "grammar": "to see ghosts の to see は「見るために」という目的を表すto不定詞。went there to see 〜 で「〜を見るためにそこへ行った」という意味になる。"
+       "grammar": "I went there to see ghosts の to+動詞の原形は「〜するために」と目的を表す。there は「そこへ」で、前置詞 to はつけない。With a - a - dead cat. の途中の a のくり返しは、言いよどんだようすを表している。"
       }
      ]
     },
@@ -9313,7 +9313,7 @@ window.BOOK_DATA = {
          "ja": "(名)墓地"
         }
        ],
-       "grammar": "looked angry の look は「〜に見える」という意味で、あとに形容詞 angry が続く。「〜を見る」の look at とはちがう使い方なので注意。"
+       "grammar": "the judge looked angry の look は「〜に見える」の意味で、あとに angry のような形容詞がくる。where were you〜?はまた場所をたずねる疑問文。laughed(笑った)と looked angry(怒った顔をした)を and で対比させている。"
       }
      ]
     },
@@ -9341,7 +9341,7 @@ window.BOOK_DATA = {
          "ja": "(名)墓"
         }
        ],
-       "grammar": "これも主語と動詞を省いた短い答え。Behind 〜(〜のうしろ)と near 〜(〜の近く)という場所を表す言葉を重ねて、細かい位置を伝えている。"
+       "grammar": "Behind the trees near Hoss Williams' grave. は場所を表す言葉だけの答え。behind(〜のうしろ)と near(〜の近く)を重ねて位置をくわしくしている。Hoss Williams' grave の Williams' は s で終わる名前なので、アポストロフィだけをつける。"
       }
      ]
     },
@@ -9365,7 +9365,7 @@ window.BOOK_DATA = {
          "ja": "(熟)(顔が)真っ白になった(go whiteの過去形)"
         }
        ],
-       "grammar": "went white の go は「行く」ではなく「〜(の状態)になる」という意味。あとに色を表す形容詞 white が来て、顔色の急な変化を表している。"
+       "grammar": "went white は「まっ青になった」。go はここでは「行く」ではなく「〜の状態になる」の意味で、色や変化を表すときに使う。suddenly(とつぜん)は動詞の前に置いて、変化の速さを表している。"
       }
      ]
     },
@@ -9401,7 +9401,7 @@ window.BOOK_DATA = {
          "ja": "(名)話"
         }
        ],
-       "grammar": "Tell us your story. は動詞の原形で始まる命令文。tell のあとに「人(us)+物(your story)」の順で2つの言葉が並ぶ形に注目しよう。"
+       "grammar": "Tell us your story. は動詞の原形で始まる命令文。tell+だれに+何を の順で「私たちに話を話しなさい」となる。Now, my boy は呼びかけ。命令文の前に置いて、やわらかい調子にしている。"
       }
      ]
     },
@@ -9437,7 +9437,7 @@ window.BOOK_DATA = {
          "ja": "(熟)口を開けたまま"
         }
        ],
-       "grammar": "listen to 〜 は「〜(の言うこと)を聞く」で、to が必要な熟語。with open mouths の with は「〜した状態で」と様子を表す使い方。"
+       "grammar": "listened to him with open mouths は「口をあけたまま聞き入った」。with+名詞で『〜の状態で』というようすを表している。And so〜は「そういうわけで」。前の場面を受けて話を進めるつなぎの言葉。"
       }
      ]
     },
@@ -9469,7 +9469,7 @@ window.BOOK_DATA = {
          "ja": "(名)ナイフ"
         }
        ],
-       "grammar": "fell は fall の不規則な過去形。and が出来事を順につないでいて、最後のダッシュ(-)は、話がとつぜん何かにさえぎられたことを表している。"
+       "grammar": "and then〜and〜と接続詞を重ねて、起こったことを息もつかず続けている文。最後がダッシュで切れているのは、話がとちゅうでさえぎられたため。文の最初の . . . は、話の途中から書き取っていることを示している。"
       }
      ]
     },
@@ -9509,7 +9509,7 @@ window.BOOK_DATA = {
          "ja": "(熟)一瞬のうちに"
         }
        ],
-       "grammar": "jumped through the window は「窓を突き抜けて飛んだ」。through が「〜を通り抜けて」を表し、in a second(一瞬で)が逃げる速さを伝えている。"
+       "grammar": "was out and away in a second は「あっという間に外へ消えた」。in a second が『一瞬で』という短い時間を表している。Crash! は物音をそのまま表した語。文の形をとらずに音だけを置いている。"
       }
      ]
     },
@@ -9544,7 +9544,7 @@ window.BOOK_DATA = {
          "ja": "(形)幸せな"
         }
        ],
-       "grammar": "was not happy は be動詞の過去の否定文。be動詞の文では、was のあとに not を置くだけで「幸せではなかった」という否定の意味になる。"
+       "grammar": "loved Tom for a week は「一週間トムをちやほやした」。for+期間で「〜の間ずっと」を表す。was not happy は be動詞の打ち消し。for a week は「一週間の間」。for のあとに期間の長さがくる。"
       },
       {
        "en": "Injun Joe was not in jail, and he was a dangerous man. Tom slept badly for weeks.",
@@ -9583,7 +9583,7 @@ window.BOOK_DATA = {
          "ja": "(熟)何週間も"
         }
        ],
-       "grammar": "slept badly は「悪く眠った=よく眠れなかった」。slept は sleep の過去形で、副詞 badly が動詞の様子をくわしく説明している。"
+       "grammar": "was not in jail は「ろうやにいなかった」。be動詞のあとに not を置くと打ち消しになる。slept badly は「よくねむれなかった」。for weeks は「何週間も」。week を複数形にして長く続いたことを表す。"
       }
      ]
     },
@@ -9627,7 +9627,7 @@ window.BOOK_DATA = {
          "ja": "(熟)忘れ始めた"
         }
        ],
-       "grammar": "did not come back は過去の否定文で、did not のあとは原形 come。began to forget は begin to+動詞の原形の過去形で「忘れ始めた」となる。"
+       "grammar": "did not come back は「もどってこなかった」。did not のあとの動詞は原形 come にもどる。began to forget は「忘れ始めた」。The slow summer days went by. のように、時間を主語にした言い方も英語ではふつう。"
       }
      ]
     }
@@ -11778,7 +11778,7 @@ window.BOOK_DATA = {
          "ja": "(形)わくわくした、興奮した"
         }
        ],
-       "grammar": "be動詞の過去形の文。was は is の過去形で、『The next Saturday was ~』は『次の土曜日は〜だった』と、過去の状態を表す言い方になっている。"
+       "grammar": "The next Saturday was〜は『いつが+だった+何』の順。Becky Thatcher's の 's は「〜の」を表す。were very excited は「とてもわくわくしていた」で、主語が friends と2人以上なので were を使う。all Becky's friends の all は「〜のみんな」。名詞の前に置いて数の多さを表す。"
       }
      ]
     },
@@ -11810,7 +11810,7 @@ window.BOOK_DATA = {
          "ja": "(動)tell(言う、伝える)の過去形"
         }
        ],
-       "grammar": "It's going to be ~ は『〜になるだろう』と未来のことを表す be going to の文。going to のあとには be という動詞の原形が続いている点に注目。"
+       "grammar": "It's going to be〜は be going to+動詞の原形で、これから起こることを表す。told は tell(言う)の過去形で、tell+人 の順に並べて「トムに言った」となる。It's going to be の It は、天気や日のようすを言うときに使う主語。"
       },
       {
        "en": "'We're going to have a picnic by the river, and after that, we can visit McDougal's Cave.'",
@@ -11861,7 +11861,7 @@ window.BOOK_DATA = {
          "ja": "(名)洞窟"
         }
        ],
-       "grammar": "We're going to have ~ は be going to を使った未来の予定の文。後半の can は『〜できる』を表す助動詞で、あとに動詞の原形 visit が続く。"
+       "grammar": "We're going to have a picnic も同じ be going to の形で予定を表す。we can visit の can は「〜できる」で、そのあとの動詞は原形のまま。by the river の by は「〜のそばで」。after that は「そのあとで」。"
       }
      ]
     },
@@ -11909,7 +11909,7 @@ window.BOOK_DATA = {
          "ja": "(熟)川を下って"
         }
        ],
-       "grammar": "一般動詞の過去形の文。took は take の過去形で、-ed をつけずに形が変わる不規則動詞。『船が人を川へ連れて行った』と過去のできごとを語っている。"
+       "grammar": "a big boat took〜down the river は『何が+運んだ+だれを+どこへ』の順。took は take(連れて行く)の過去形。down the river は「川を下って」。in the morning の in は、朝や午後など時間の幅につける前置詞。"
       },
       {
        "en": "There were some older children on the boat too, but all the mothers and fathers stayed at home. Picnics are better without them!",
@@ -11956,7 +11956,7 @@ window.BOOK_DATA = {
          "ja": "(前)〜なしで"
         }
        ],
-       "grammar": "There were ~ は『〜がいた』と存在を表す文で、children が複数なので was ではなく were を使う。better は good の比較級で『もっとよい』という意味。"
+       "grammar": "There were some older children は「〜がいた」を表す There were の文。older は old の比較級で「年上の」。better は good の比較級で「よりよい」。without them の without は「〜なしで」。them は父母たちを指している。"
       }
      ]
     },
@@ -11984,7 +11984,7 @@ window.BOOK_DATA = {
          "ja": "(名)ピクニック"
         }
        ],
-       "grammar": "be動詞の過去形 was の文。『it was a ~ picnic』のように、was のあとに形容詞+名詞を続けて『〜なピクニックだった』と過去の様子を伝えている。"
+       "grammar": "a very happy, noisy picnic のように、形容詞をコンマでならべて名詞の前に置ける。it は前の文のピクニックを指している。感嘆符(!)を使って、楽しさをそのまま声にした書き方になっている。"
       }
      ]
     },
@@ -12044,7 +12044,7 @@ window.BOOK_DATA = {
          "ja": "(名)どうくつ"
         }
        ],
-       "grammar": "過去形の動詞が並ぶ文。took out は take out(取り出す)の過去形、ran は run(走る)の過去形で、and が二つの過去の動作を順につないでいる。"
+       "grammar": "took out(取り出した)と ran up(かけ上がった)は、どちらも動詞+副詞で1つの意味をつくる形。up the hill to the cave と場所を順に説明している。the children took out their candles の their は「自分たちの」を表す。"
       },
       {
        "en": "The mouth of the cave was dark, and some of the children were afraid at first. But caves are exciting, so in the end everybody went in.",
@@ -12095,7 +12095,7 @@ window.BOOK_DATA = {
          "ja": "(動)go(行く)の過去形"
         }
        ],
-       "grammar": "be動詞の過去形の使い分けに注目。主語が The mouth(単数)なら was、some of the children(複数)なら were になる。so は『だから』の接続詞。"
+       "grammar": "The mouth of the cave の of は「〜の」。at first は「はじめは」、in the end は「最後には」で、時の流れを対にして表している。some of the children は「子どもたちのうちの何人か」。some of+the+名詞 の形。"
       }
      ]
     },
@@ -12151,7 +12151,7 @@ window.BOOK_DATA = {
          "ja": "(名)マイル(約1.6キロメートル)"
         }
        ],
-       "grammar": "went は go の過去形。『The tunnels went up, down ~』のように、go は人だけでなく、道やトンネルが『のびている』ときにも使える動詞。"
+       "grammar": "with hundreds of tunnels and rooms の with は「〜をもって」。went up, down, and into〜と、向きを表す語を3つならべている。for miles は「何マイルも」。距離が長く続くことを表す言い方。"
       },
       {
        "en": "You could walk for days in McDougal's Cave. Nobody knew all the cave, but many people knew the tunnels near the door.",
@@ -12202,7 +12202,7 @@ window.BOOK_DATA = {
          "ja": "(名)ドア"
         }
        ],
-       "grammar": "could は can の過去形で『〜できた』。ここでの You は『あなた』ではなく『(だれでも)人は』という意味。Nobody knew ~ は『だれも〜を知らなかった』となる。"
+       "grammar": "You could walk for days の you は「あなた」ではなく「人はだれでも」の意味。could は can の過去形で「〜できた」。knew は know の過去形。the tunnels near the door の near the door が、どのトンネルかを後ろから説明している。"
       },
       {
        "en": "You could play all day in these tunnels. Tom, of course, knew them well.",
@@ -12245,7 +12245,7 @@ window.BOOK_DATA = {
          "ja": "(副)じょうずに/(間)さて"
         }
        ],
-       "grammar": "could play は〈can の過去形+動詞の原形〉で『遊ぶことができた』。knew them well の them は、前の文の these tunnels を指す代名詞。"
+       "grammar": "all day は「一日中」。of course(もちろん)は文の途中にはさんで使う。knew them well の them は前に出たトンネルを指す代名詞。of course は文の途中にはさんで「もちろん」。well は「よく」で動詞を説明する。"
       }
      ]
     },
@@ -12297,7 +12297,7 @@ window.BOOK_DATA = {
          "ja": "(名)room(部屋)の複数形"
         }
        ],
-       "grammar": "walked と ran はどちらも過去形。walk のように -ed をつける規則動詞と、run - ran のように形そのものが変わる不規則動詞の両方が使われている。"
+       "grammar": "For hours(何時間も)を文の先頭に置いている。up and down、in and out のように、反対の意味の語を対にする言い方が英語には多い。through the cave の through は「〜の中を通りぬけて」という向きを表す。"
       },
       {
        "en": "In the evening they came out, and walked down the hill to the boat, tired but happy.",
@@ -12340,7 +12340,7 @@ window.BOOK_DATA = {
          "ja": "(形)幸せな"
         }
        ],
-       "grammar": "came は come の過去形。文末の tired but happy は『疲れていたけれど幸せで』と、but(しかし)で二つの形容詞をつないで they の様子を付け加えている。"
+       "grammar": "came out(出てきた)と walked down(歩いて下った)を and でつなぐ。tired but happy は「つかれていたが楽しかった」と、二人の気持ちを後ろから説明している。down the hill to the boat と、向かう先を2つ重ねてくわしく示している。"
       }
      ]
     },
@@ -12392,7 +12392,7 @@ window.BOOK_DATA = {
          "ja": "(名)ピクニック"
         }
        ],
-       "grammar": "did not know は一般動詞の過去の否定文。過去のことを『〜しなかった』と言うときは、〈did not(didn't)+動詞の原形〉の形にするのがルール。"
+       "grammar": "When the boat arrived back〜の when は「〜したとき」を表す接続詞。it was dark の it は天気や明るさを言うときに使う、意味をもたない主語。arrived back は「もどってきた」。back が『もとの場所へ』を表している。"
       },
       {
        "en": "He did not go to birthday picnics, of course, because the mothers of St Petersburg did not like him.",
@@ -12435,7 +12435,7 @@ window.BOOK_DATA = {
          "ja": "(前)〜のように"
         }
        ],
-       "grammar": "because は『なぜなら〜だから』と理由を表す接続詞。did not go、did not like と、〈did not+動詞の原形〉の過去の否定文が二つつながれている。"
+       "grammar": "did not go to〜は「〜には行かなかった」。because のあとに『主語+動詞』が続いて、行かなかった理由を説明している。the mothers of St Petersburg の of は「〜の」で、どの母親たちかを示している。"
       },
       {
        "en": "But tonight Huck was only interested in treasure - Injun Joe's treasure. Injun Joe was in an old building by the river, and Huck waited in the street near the building.",
@@ -12490,7 +12490,7 @@ window.BOOK_DATA = {
          "ja": "(熟)〜に興味がある"
         }
        ],
-       "grammar": "was interested in ~ は〈be動詞+形容詞〉で『〜に興味があった』。二つ目の文の was は『(建物の中に)いた』と、人のいる場所を表す be動詞の使い方。"
+       "grammar": "was only interested in〜は「〜にしか興味がなかった」。by the river(川のそばの)と near the building(建物の近くで)が、それぞれ場所を説明している。in an old building by the river と、建物の場所をさらに by〜で説明している。"
       }
      ]
     },
@@ -12530,7 +12530,7 @@ window.BOOK_DATA = {
          "ja": "(名)お金"
         }
        ],
-       "grammar": "'Perhaps,' he thought, '~' は、he thought(彼は考えた)がセリフの間にはさまれた形。考えの中身は is in there と現在形のまま書かれている。"
+       "grammar": "'Perhaps,' he thought, と、思ったことをセリフのように書く形。in there は「その中に」で、there が建物の中を指している。the box of money は「お金の入った箱」。of が中身を表している。"
       },
       {
        "en": "I must wait and watch. I can tell Tom about it tomorrow.'",
@@ -12565,7 +12565,7 @@ window.BOOK_DATA = {
          "ja": "(副)あす"
         }
        ],
-       "grammar": "must は『〜しなければならない』、can は『〜できる』を表す助動詞。どちらも後ろには wait、tell のように動詞の原形を置くのがルール。"
+       "grammar": "I must wait and watch は must+動詞の原形で「〜しなければならない」。and でつないだ watch も原形のまま並ぶ。tell+人+about+話題 の順で「トムにそのことを話す」となる。"
       }
      ]
     },
@@ -12617,7 +12617,7 @@ window.BOOK_DATA = {
          "ja": "(名)通り"
         }
        ],
-       "grammar": "didn't come out は〈didn't+動詞の原形〉の過去の否定文。began to rain は『雨が降り始めた』で、to rain は〈to+動詞の原形〉の to不定詞。"
+       "grammar": "didn't come out は「出てこなかった」。it began to rain の it は天気を言うときの主語で、「それ」とは訳さない。all night は「一晩中」。in the cold street が待っていた場所を表している。"
       },
       {
        "en": "In the morning he could not move and he could not speak. He felt cold, then hot, then cold, then hot again.",
@@ -12660,7 +12660,7 @@ window.BOOK_DATA = {
          "ja": "(副)もう一度"
         }
        ],
-       "grammar": "〈could not+動詞の原形〉で『〜できなかった』。felt cold, then hot は、feel のあとに形容詞を続けて『寒く感じ、それから熱く感じた』と体の状態を表している。"
+       "grammar": "could not move、could not speak と、can の過去形の打ち消しを2回くり返している。then が「そして次に」と変化の順を示している。felt は feel(感じる)の過去形。cold や hot のような形容詞があとに続く。"
       },
       {
        "en": "Mrs Douglas, a woman from the church, found him in the street. She took him to her home and put him to bed.",
@@ -12707,7 +12707,7 @@ window.BOOK_DATA = {
          "ja": "(熟)〜をベッドに寝かせる"
         }
        ],
-       "grammar": "found、took、put はどれも不規則動詞の過去形(find - found、take - took、put - put)。put は原形と過去形が同じ形なので、文の流れで見分ける。"
+       "grammar": "a woman from the church は、前の Mrs Douglas を言いかえて説明した部分。took him to her home は『連れて行った+だれを+どこへ』の順。put him to bed は「彼をねかせた」。put+人+to bed で1つの意味になる。"
       },
       {
        "en": "And there he stayed for two weeks. He was very ill, and so he did not hear about Tom and Becky.",
@@ -12754,7 +12754,7 @@ window.BOOK_DATA = {
          "ja": "(前)〜について/(副)およそ"
         }
        ],
-       "grammar": "for two weeks の for は『〜のあいだ』と期間を表す前置詞。and so は『それで、だから』という意味で、前の文(病気だった)が後の文の理由になっている。"
+       "grammar": "there he stayed は場所を表す there を先頭に出した強めの語順。and so は「それで」と、前の文が理由になることを示している。for two weeks は「二週間の間」。for のあとに期間の長さがくる。"
       }
      ]
     },
@@ -12802,7 +12802,7 @@ window.BOOK_DATA = {
          "ja": "(名)村"
         }
        ],
-       "grammar": "were not は be動詞の過去の否定で『(船に)いなかった』。when it came back の it は the boat を指し、when は『〜したとき』の接続詞。"
+       "grammar": "all St Petersburg knew about〜は「村じゅうが〜を知っていた」。when it came back の it は the boat を指している。on Sunday morning のように、特定の日の朝には in ではなく on を使う。"
       },
       {
        "en": "Where were they? Were they lost in the cave?",
@@ -12825,7 +12825,7 @@ window.BOOK_DATA = {
          "ja": "(名)どうくつ"
         }
        ],
-       "grammar": "Where were they? は疑問詞 where で始まる過去の疑問文。be動詞の疑問文は Were they ~? のように、主語と be動詞の順番を入れかえて作る。"
+       "grammar": "Where were they? は be動詞を主語の前に出した疑問文。Were they lost〜?も同じ形で、be動詞から文を始めている。lost はここでは「道にまよった」という状態を表す形容詞のはたらき。"
       },
       {
        "en": "And were they alive, or dead?",
@@ -12844,7 +12844,7 @@ window.BOOK_DATA = {
          "ja": "(形)死んでいる"
         }
        ],
-       "grammar": "were they alive, or dead? は『AかそれともBか』と or を使ってたずねる be動詞の疑問文。alive と dead という反対の意味の形容詞が並べられている。"
+       "grammar": "were they alive, or dead? は or を使って2つのうちどちらかをたずねる疑問文。alive(生きている)と dead(死んでいる)を対にしている。or は「または」。2つのうちどちらかをたずねるときに使う。"
       }
      ]
     },
@@ -12895,7 +12895,7 @@ window.BOOK_DATA = {
          "ja": "(名)トンネル、横あな"
         }
        ],
-       "grammar": "wanted to go は〈want to+動詞の原形〉の過去形で『行きたかった』。to のあとに動詞の原形を置く to不定詞が『〜すること』の意味を作っている。"
+       "grammar": "At first(はじめは)と Then(それから)で場面の順を示している。wanted to go は want to+動詞の原形で「〜したかった」。went with him の with は「いっしょに」。him はトムを指す代名詞。"
       }
      ]
     },
@@ -12947,7 +12947,7 @@ window.BOOK_DATA = {
          "ja": "(名)印"
         }
        ],
-       "grammar": "a second tunnel, then a third は『二つ目のトンネル、それから三つ目』という意味。second、third は順番を表す言い方。この文は挿絵をはさんで次に続いている。"
+       "grammar": "went into a second tunnel, then a third は「2本目、そして3本目へ」。a third のあとの tunnel は、くり返しになるので省かれている。then a third のあとに tunnel が省かれているのは、くり返しをさけるため。"
       }
      ]
     },
@@ -13007,7 +13007,7 @@ window.BOOK_DATA = {
          "ja": "(副)もう一度"
         }
        ],
-       "grammar": "前の段落から続いている文。wanted to find は〈want to+動詞の原形〉の過去形で『見つけたかった』。again は『もう一度』という意味の副詞。"
+       "grammar": "he wanted to find the mouth of the cave again の to find は「見つけることを」という意味のまとまり。again は「もう一度」。the mouth of the cave の mouth は「口」から「入り口」の意味に広がった語。"
       },
       {
        "en": "Then they came out of the tunnels into a big room. There were hundreds of bats in this room, and the candles woke them up.",
@@ -13054,7 +13054,7 @@ window.BOOK_DATA = {
          "ja": "(副)上へ"
         }
        ],
-       "grammar": "There were hundreds of bats は『何百匹ものコウモリがいた』。There is/are の過去形は There was/were で、bats が複数なので were。"
+       "grammar": "There were hundreds of bats は「何百ものコウモリがいた」。woke them up は wake up(起こす)の間に them をはさんだ形。came out of〜into〜は「〜から出て〜へ入る」と、出入りを続けて表している。"
       },
       {
        "en": "Tom took Becky's hand and they ran into the nearest tunnel, with the bats behind them. But one bat hit Becky's candle and it went out.",
@@ -13105,7 +13105,7 @@ window.BOOK_DATA = {
          "ja": "(熟)go out((火が)消える)の過去形"
         }
        ],
-       "grammar": "nearest は near の最上級で『いちばん近い』。最上級には the をつける。went out はここでは『行った』ではなく『(火が)消えた』という意味の熟語の過去形。"
+       "grammar": "with the bats behind them は「コウモリを後ろに従えて」。it went out の go out は「(火や明かりが)消える」という意味になる。took Becky's hand は「ベッキーの手を取った」。's が持ち主を表す。"
       },
       {
        "en": "The children ran and ran through the tunnels, and at last they got away from the bats.",
@@ -13140,7 +13140,7 @@ window.BOOK_DATA = {
          "ja": "(名)bat(コウモリ)の複数形"
         }
        ],
-       "grammar": "ran and ran のように同じ動詞をくり返すと『走りに走った』という強調の表現になる。at last(ついに)が、長い逃走のすえの結果であることを示している。"
+       "grammar": "ran and ran は同じ語をくり返して「走りに走った」と強めている。got away from〜は「〜からのがれた」。at last は「ついに」。at last は「ついに」。長く続いたことがやっと終わったときに使う。"
       },
       {
        "en": "They stopped and sat down. Suddenly, it was very, very quiet.",
@@ -13167,7 +13167,7 @@ window.BOOK_DATA = {
          "ja": "(形)静かな"
         }
        ],
-       "grammar": "it was very, very quiet の it は、明るさや静けさなど『あたりの様子』を表す文の主語で、『それ』とは訳さない。very のくり返しが静けさを強めている。"
+       "grammar": "stopped and sat down と動作を順に述べている。it was very, very quiet の it は、あたりのようすを表すときの主語。sat down は「すわった」。sit(すわっている)と down の組み合わせ。"
       }
      ]
     },
@@ -13195,7 +13195,7 @@ window.BOOK_DATA = {
          "ja": "(形)こわがって"
         }
        ],
-       "grammar": "Where are we now? は疑問詞 where で始まる be動詞の疑問文。〈疑問詞+be動詞+主語〉の語順で『私たちは今どこにいるの?』とたずねている。"
+       "grammar": "Where are we now? は「今どこにいるの?」。are を主語 we の前に出して疑問文にしている。afraid は「こわがって」というベッキーのようすを表す。whispered は「小さな声で言った」。said より声の小ささが伝わる。"
       }
      ]
     },
@@ -13219,7 +13219,7 @@ window.BOOK_DATA = {
          "ja": "(動)say(言う)の過去形"
         }
        ],
-       "grammar": "I don't know は一般動詞の否定文で、〈don't(do not)+動詞の原形〉の形。said Tom は、セリフのあとで〈動詞+主語〉の順になる物語らしい書き方。"
+       "grammar": "I don't know. は do not の短縮形を使った打ち消しの文。一般動詞の打ち消しには don't を使い、そのあとの動詞は原形のまま置く。会話では I don't know. の3語だけで「わからない」と答えられる。"
       },
       {
        "en": "'I think it's time to go back. But we can't go through that big room because of the bats.",
@@ -13270,7 +13270,7 @@ window.BOOK_DATA = {
          "ja": "(名)bat(コウモリ)の複数形"
         }
        ],
-       "grammar": "it's time to go back は〈to+動詞の原形〉を使った『戻る時間だ』という表現。can't は cannot の短縮形で、『〜できない』という can の否定文を作る。"
+       "grammar": "it's time to go back は「もどる時間だ」。to+動詞の原形が time を後ろから説明している。because of+名詞で「〜のせいで」と理由を表す。go through〜は「〜を通りぬける」。that big room の that は少しはなれたものを指す。"
       },
       {
        "en": "Let's go down this tunnel.'",
@@ -13293,7 +13293,7 @@ window.BOOK_DATA = {
          "ja": "(名)トンネル、横あな"
         }
        ],
-       "grammar": "〈Let's+動詞の原形〉で『〜しよう』と相手をさそう文。Let's go down this tunnel. は『このトンネルを進もう』と、いっしょにする行動を提案している。"
+       "grammar": "Let's go down this tunnel. は Let's+動詞の原形で「〜しよう」とさそう形。go down で「(通路を)進んでいく」の意味になる。this tunnel の this は「(目の前の)この」。that との使い分けに注意。"
       }
      ]
     },
@@ -13337,7 +13337,7 @@ window.BOOK_DATA = {
          "ja": "(名)四番目"
         }
        ],
-       "grammar": "one tunnel, then a second, a third は『一つ目、次に二つ目、三つ目』と順番を表す言い方。second や third は順序を表す数の言葉。"
+       "grammar": "one, a second, a third, a fourth と順番を表す語をならべている。同じ tunnel をくり返さず、数を表す語だけで進んだ本数を示している。文の終わりの . . . は、その先も同じことが続いたことを表している。"
       },
       {
        "en": "Then they wanted to find the big room with the bats again, but they couldn't. Becky began to cry:",
@@ -13380,7 +13380,7 @@ window.BOOK_DATA = {
          "ja": "(動)泣く、さけぶ"
         }
        ],
-       "grammar": "they couldn't のあとには find ~ が省略されている。くり返しをさけて助動詞だけを残す言い方。began to cry は『泣き始めた』という意味。"
+       "grammar": "wanted to find は「見つけたかった」。but they couldn't は couldn't のあとを省いた形で、find the room がかくれている。began to cry は「泣き始めた」。begin to+動詞の原形で「〜し始める」。"
       }
      ]
     },
@@ -13408,7 +13408,7 @@ window.BOOK_DATA = {
          "ja": "(形)道に迷った"
         }
        ],
-       "grammar": "can't get out は『外に出られない』という can の否定文。We're lost の lost は『迷った』状態を表す形容詞で、〈be動詞+lost〉で『迷っている』となる。"
+       "grammar": "we can't get out は「外に出られない」。get out は2語で1つの動詞のはたらきをする。We're lost は「道にまよっている」という状態を表す。we're lost をくり返して、ベッキーの不安の強さを表している。"
       }
      ]
     },
@@ -13436,7 +13436,7 @@ window.BOOK_DATA = {
          "ja": "(熟)sit down(座る)の過去形"
         }
        ],
-       "grammar": "When they were tired, ~ の when は『〜のとき』を表す接続詞。〈When+文, 文〉の形で、『疲れたときには座った』という意味を作っている。"
+       "grammar": "walked, and walked と同じ語をくり返して、歩き続けたことを表している。When they were tired の when は「〜のとき」を表す接続詞。When they were tired の were は、主語が they なので was ではなく were。"
       },
       {
        "en": "Then they got up and walked again. Time went by.",
@@ -13467,7 +13467,7 @@ window.BOOK_DATA = {
          "ja": "(熟)go by((時が)過ぎる)の過去形"
         }
        ],
-       "grammar": "got up、walked と過去形の動詞が続いて時間の流れを表している。Time went by. は『時が過ぎた』という決まった言い方で、went は go の過去形。"
+       "grammar": "got up and walked again と、過去形の動詞を and でつないでいる。Time went by は時間を主語にして「時が過ぎた」と表す言い方。again は「もう一度」。動作をくり返したことを表す。"
       },
       {
        "en": "Was it day, or night? They didn't know.",
@@ -13494,7 +13494,7 @@ window.BOOK_DATA = {
          "ja": "(動)知っている"
         }
        ],
-       "grammar": "Was it day, or night? は be動詞 was を文の先頭に出した過去の疑問文で、or で『AかBか』とたずねている。答えは didn't know と過去の否定文。"
+       "grammar": "Was it day, or night? は be動詞を先頭に出した疑問文。it は明るさや時間を表すときの主語で、「それ」とは訳さない。They didn't know. は didn't のあとに動詞の原形 know が続く形。"
       }
      ]
     },
@@ -13542,7 +13542,7 @@ window.BOOK_DATA = {
          "ja": "(動)飲む"
         }
        ],
-       "grammar": "nothing to eat は『食べるものが何もない』、something to drink は『飲むもの』。〈to+動詞の原形〉が前の語を後ろから説明する to不定詞の使い方。"
+       "grammar": "nothing to eat は「食べるものが何もない」。to+動詞の原形が前の nothing を後ろから説明している。something to drink も同じ形。must have something to drink の must は「〜しなければならない」。"
       },
       {
        "en": "They found a very small river and sat down next to it.",
@@ -13573,7 +13573,7 @@ window.BOOK_DATA = {
          "ja": "(熟)〜のとなりに、〜のすぐそばに"
         }
        ],
-       "grammar": "found は find(見つける)の過去形。next to it の it は直前の a very small river を指す代名詞で、同じ言葉のくり返しをさけている。"
+       "grammar": "found は find(見つける)の過去形。sat down next to it の next to は「〜のとなりに」で、it は見つけた川を指している。a very small river の very は small を強めて「とても小さな」とする副詞。"
       }
      ]
     },
@@ -13601,7 +13601,7 @@ window.BOOK_DATA = {
          "ja": "(副)ここに、ここへ"
         }
        ],
-       "grammar": "must は『〜しなければならない』という強い必要を表す助動詞。We must stay here. のように、must のあとには動詞の原形 stay を置く。"
+       "grammar": "We must stay here. は must+動詞の原形で「〜しなければならない」。must のあとの動詞はいつも原形で、-s もつかない。here は「ここに」。場所を表す語で、前に前置詞をつけない。"
       },
       {
        "en": "Near this river. This is our last candle, and . . .'",
@@ -13628,7 +13628,7 @@ window.BOOK_DATA = {
          "ja": "(名)ろうそく"
         }
        ],
-       "grammar": "This is our last candle は『これが最後のろうそくだ』という be動詞の文。文末の and . . . は、言いかけて言葉をのみこんだことを表す書き方。"
+       "grammar": "Near this river. は前の文に場所をつけ足した言い方。This is our last candle の last は「最後の」。our last candle の our は「私たちの」。持ち主を表す語は名詞の前に置く。"
       }
      ]
     },
@@ -13660,7 +13660,7 @@ window.BOOK_DATA = {
          "ja": "(動)understand(理解する)の過去形"
         }
        ],
-       "grammar": "did not finish は〈did not+動詞の原形〉の過去の否定文で『言い終えなかった』。but(しかし)が、言わなかったことと伝わったことを対比している。"
+       "grammar": "did not finish は「最後まで言わなかった」。but でつないで、言わなくても伝わったことを understood(理解した)で示している。understood は understand(わかる)の過去形。不規則に形が変わる動詞。"
       }
      ]
     },
@@ -13671,7 +13671,7 @@ window.BOOK_DATA = {
        "en": "'Tom?'",
        "ja": "「トム?」",
        "vocab": [],
-       "grammar": "名前だけを上げ調子で言う呼びかけの文。Tom? のように ? をつけて書くと、『ねえ、トム?』と返事を求めて呼びかけている感じを表すことができる。"
+       "grammar": "'Tom?' と名前を上げ調子で呼ぶだけで、「ねえ」と話しかける働きをしている。名前だけを呼びかけるときも、文の最後に?をつけて上げ調子にできる。"
       }
      ]
     },
@@ -13687,7 +13687,7 @@ window.BOOK_DATA = {
          "ja": "(間)はい"
         }
        ],
-       "grammar": "Yes は質問に『はい』と答えるだけでなく、名前を呼ばれたときに『なんだい?』と応じるときにも使える。あとに相手の名前をつけてやさしく答えている。"
+       "grammar": "'Yes, Becky.' は呼びかけへの返事。Yes は質問への「はい」だけでなく、呼ばれたときの返事にも使う。Yes, Becky. のように、相手の名前を添えるとやさしい返事になる。"
       }
      ]
     },
@@ -13711,7 +13711,7 @@ window.BOOK_DATA = {
          "ja": "(熟)〜を探す"
         }
        ],
-       "grammar": "be going to の疑問文。Are they going to ~? と be動詞を主語の前に出してたずねている。come and look for は『来て探す』という意味。"
+       "grammar": "Are they going to come〜?は be going to の疑問文で、are を主語の前に出してつくる。look for us は「私たちをさがす」。come and look for us も、and でつないだ動詞2つがどちらも原形のまま。"
       }
      ]
     },
@@ -13739,7 +13739,7 @@ window.BOOK_DATA = {
          "ja": "(熟)〜に着く"
         }
        ],
-       "grammar": "When the boat gets to ~ の when は『〜したら』を表す接続詞。未来のことでも when のあとの文では gets と現在形を使う。文は途中でさえぎられている。"
+       "grammar": "Of course! は「もちろん」という決まった言い方。When the boat gets to〜の gets は主語が the boat なので -s がついている。文の終わりのダッシュは、言いかけて止めたことを表している。"
       }
      ]
     },
@@ -13783,7 +13783,7 @@ window.BOOK_DATA = {
          "ja": "(名)tunnel(トンネル)の複数形"
         }
        ],
-       "grammar": "how can they find us? は〈疑問詞 how+can の疑問文〉。『どうやって〜できるのか』と、how のあとに疑問文の語順を続けて方法をたずねている。"
+       "grammar": "how can they find us?は how(どうやって)で始め、can を主語の前に出した疑問文。these hundreds of tunnels は「この何百ものトンネル」。how は「どうやって」と方法をたずねる疑問詞。文の先頭に置く。"
       },
       {
        "en": "Oh, Tom, Tom, we're going to die in here!'",
@@ -13814,7 +13814,7 @@ window.BOOK_DATA = {
          "ja": "(副)ここに、ここへ"
         }
        ],
-       "grammar": "we're going to die は be going to の文で、『〜することになる、〜しそうだ』と、これから起こると思っていることを表す。in here は『この中で』という意味。"
+       "grammar": "we're going to die は be going to+動詞の原形で、これから起こりそうなことを表している。in here は「この中で」。Tom, Tom と名前をくり返して、必死な気持ちを表している。"
       }
      ]
     },
@@ -13862,7 +13862,7 @@ window.BOOK_DATA = {
          "ja": "(熟)暗やみの中で"
         }
        ],
-       "grammar": "began to cry は〈begin to+動詞の原形〉の過去形で『泣き始めた』。were in the dark は be動詞の過去形で『暗やみの中にいた』という状態を表している。"
+       "grammar": "began to cry again は「また泣き始めた」。the candle went out の go out は「(明かりが)消える」の意味になる。in the dark は「暗やみの中で」。the をつけて場所のように使う。"
       },
       {
        "en": "They sat for hours and hours. They slept a little, then woke up, then slept again.",
@@ -13901,7 +13901,7 @@ window.BOOK_DATA = {
          "ja": "(副)もう一度"
         }
        ],
-       "grammar": "for hours and hours は for(〜のあいだ)を使って『何時間も何時間も』と長さを強調した言い方。slept、woke はどちらも不規則動詞の過去形。"
+       "grammar": "for hours and hours は「何時間も何時間も」。slept, woke up, slept again と、動作の順を then でつないでいる。a little は「少し」。slept a little で「少しだけねむった」となる。"
       },
       {
        "en": "Was it Sunday now? Or Monday?",
@@ -13924,7 +13924,7 @@ window.BOOK_DATA = {
          "ja": "(名)月曜日"
         }
        ],
-       "grammar": "Was it Sunday now? は be動詞の過去の疑問文で、心の中の疑問をそのまま文にしたもの。Or Monday? は Was it をくり返さずに省略した短い言い方。"
+       "grammar": "Was it Sunday now? Or Monday? は be動詞を先頭に出した疑問文と、or で足したもう一つの候補。曜日の前に前置詞はつかない。曜日をたずねる短い文を2つならべ、時間の感覚がなくなったことを示している。"
       }
      ]
     },
@@ -13944,7 +13944,7 @@ window.BOOK_DATA = {
          "ja": "(熟)sit up(上体を起こす)の過去形"
         }
        ],
-       "grammar": "sat は sit の過去形。sit up は『(横になった状態から)上体を起こす』という熟語で、sit down(腰を下ろす)とは up と down で反対の動きを表す。"
+       "grammar": "sat up は「体を起こした」。suddenly(とつぜん)を文の先頭に置いて、動きの急さを強めている。suddenly のような副詞は、文の先頭にも動詞の前にも置ける。"
       },
       {
        "en": "'Listen! Somebody's calling!'",
@@ -13963,7 +13963,7 @@ window.BOOK_DATA = {
          "ja": "(動)call(呼ぶ)のing形"
         }
        ],
-       "grammar": "Listen! は動詞の原形で始まる命令文で『聞いて!』。Somebody's calling は Somebody is calling の短縮形で、〈be動詞+~ing〉の現在進行形。"
+       "grammar": "Somebody's calling! は Somebody is calling の短縮形で、is+ing形の「今〜している」を表す。Listen! は動詞の原形だけの命令文。somebody は「だれか」。名前のわからない人を指すときに使う。"
       }
      ]
     },
@@ -14003,7 +14003,7 @@ window.BOOK_DATA = {
          "ja": "(形)near(近い)の比較級「もっと近く」"
         }
        ],
-       "grammar": "nearer は near の比較級で『(前より)近くに』。a little nearer は比較級の前に a little をつけて『少し近く』と程度を表す言い方。"
+       "grammar": "They heard it again の heard は hear(聞こえる)の過去形。a little nearer の nearer は near の比較級で「さっきより近く」。again は「また」。前に一度聞こえたことを受けている。"
       },
       {
        "en": "They called back; then they began to walk down the tunnel in the dark, with their hands on the wall.",
@@ -14046,7 +14046,7 @@ window.BOOK_DATA = {
          "ja": "(名)かべ"
         }
        ],
-       "grammar": "with their hands on the wall は〈with+名詞+場所〉で『手を壁に当てたまま』という様子を表す言い方。began to walk は『歩き始めた』という意味。"
+       "grammar": "called back(呼び返した)、began to walk(歩き始めた)と動作が続く。with their hands on the wall は「かべに手をつけたまま」。in the dark(暗い中で)と with their hands on the wall(かべに手をあてて)を重ねている。"
       },
       {
        "en": "They stopped and listened again, but now they couldn't hear anything. Slowly, they went back to their river.",
@@ -14093,7 +14093,7 @@ window.BOOK_DATA = {
          "ja": "(熟)何も〜ない"
         }
        ],
-       "grammar": "couldn't hear anything は『何も聞こえなかった』。〈not ~ anything〉で『何も〜ない』という意味になる。Slowly のような副詞は文の先頭にも置ける。"
+       "grammar": "couldn't hear anything は「何も聞こえなかった」。anything は打ち消しの文で「何も(〜ない)」の意味になる。went back to〜は「〜へもどった」。slowly が進み方を表している。"
       }
      ]
     },
@@ -14125,7 +14125,7 @@ window.BOOK_DATA = {
          "ja": "(形)空腹の"
         }
        ],
-       "grammar": "woke up very, very hungry は『目を覚ましたら、とてもおなかがすいていた』。動詞のあとに形容詞 hungry を置いて、そのときの状態を表している。"
+       "grammar": "woke up very, very hungry は「とてもおなかをすかせて目をさました」。目をさましたときのようすを、動詞のあとに置いて説明している。very, very hungry と very を重ねて、空腹の強さを表している。"
       }
      ]
     },
@@ -14157,7 +14157,7 @@ window.BOOK_DATA = {
          "ja": "(動)think(思う)の過去形"
         }
        ],
-       "grammar": "'~,' Tom thought. は、心の中で考えたことをセリフの形で書き、あとから Tom thought(トムは思った)と説明する形。thought は think の過去形。"
+       "grammar": "Perhaps it's Tuesday now は「たぶん今は火曜日だ」。perhaps を文の先頭に置いて、はっきりしない気持ちを表している。Tom thought のように、心の中の言葉も said と同じ形で書ける。"
       },
       {
        "en": "'What can I do? I must do something!'",
@@ -14180,7 +14180,7 @@ window.BOOK_DATA = {
          "ja": "(代)何か"
         }
        ],
-       "grammar": "What can I do? は〈疑問詞 what+can の疑問文〉で『何ができるだろう』。must do something は『何かしなければ』と自分に言い聞かせる must の文。"
+       "grammar": "What can I do? は what(何を)で始め、can を主語の前に出した疑問文。I must do something! は「何かしなければ」。something は「何か」。do something で「何かをする」となる。"
       },
       {
        "en": "Then he had an idea.",
@@ -14199,7 +14199,7 @@ window.BOOK_DATA = {
          "ja": "(名)考え、思いつき"
         }
        ],
-       "grammar": "had は have の過去形。have an idea は直訳すると『考えを持つ』で、英語では『考えが思いうかぶ』ことを idea を have すると表現する。"
+       "grammar": "had an idea は「思いついた」。have は「持っている」だけでなく、考えが浮かぶときにも使う。Then は「そのとき」。場面が動くところで使われている。"
       }
      ]
     },
@@ -14235,7 +14235,7 @@ window.BOOK_DATA = {
          "ja": "(名)ポケット"
         }
        ],
-       "grammar": "listen は動詞の原形で始まる命令文で『聞いて』。I've got ~ は I have ~ と同じ『〜を持っている』という意味で、話し言葉でよく使われる表現。"
+       "grammar": "I've got〜は I have got の短縮形で「持っている」。in my pocket は「ポケットの中に」と、ある場所を表している。a long string の long は「長い」。名詞の前に置いて形や大きさを説明する。"
       },
       {
        "en": "I can go down some of the small tunnels and get back to you with the string. You wait here.'",
@@ -14278,7 +14278,7 @@ window.BOOK_DATA = {
          "ja": "(動)待つ"
         }
        ],
-       "grammar": "can のあとに go と get back という二つの動詞の原形が and で並んでいる。You wait here. は主語 You をつけた命令文で、相手にやわらかく指示する言い方。"
+       "grammar": "I can go〜and get back〜は、can のあとの動詞2つを and でつないだ形。どちらも原形のまま並ぶ。You wait here. は主語をつけて念をおした命令文。some of the small tunnels は「小さなトンネルのいくつか」。some of+the+名詞 の形。"
       }
      ]
     },
@@ -14322,7 +14322,7 @@ window.BOOK_DATA = {
          "ja": "(名)ひざ"
         }
        ],
-       "grammar": "slowly、carefully は形容詞に -ly がついた副詞で、動作の様子をくわしく表す。went down は go down(進んでいく)の過去形。"
+       "grammar": "Slowly and carefully を文の先頭に置いて、進み方を先に示している。on his hands and knees は「四つんばいで」という決まった言い方。the first tunnel の first は「1本目の」。順番を表す語には the をつける。"
       },
       {
        "en": "Then the tunnel wall on his right finished, and there was nothing. Tom put out his hand to feel the floor.",
@@ -14365,7 +14365,7 @@ window.BOOK_DATA = {
          "ja": "(名)床"
         }
        ],
-       "grammar": "there was nothing は There is ~ の過去形で『何もなかった』。to feel the floor は『床をたしかめるために』と目的を表す to不定詞。"
+       "grammar": "the tunnel wall on his right は「右手のかべ」で、on his right が後ろから場所を説明している。there was nothing は「何もなかった」。to feel the floor の to+動詞の原形は「ゆかをさわるために」と目的を表す。"
       },
       {
        "en": "And just then, away to his right, he saw a hand - a hand with a candle.",
@@ -14400,7 +14400,7 @@ window.BOOK_DATA = {
          "ja": "(名)ろうそく"
         }
        ],
-       "grammar": "saw は see の過去形。a hand - a hand with a candle のダッシュ(-)は、直前の言葉を言い直して、よりくわしく説明するときに使う書き方。"
+       "grammar": "away to his right は「右のほうはなれたところに」。a hand with a candle の with は「〜を持った」で、前の a hand を説明している。just then は「ちょうどそのとき」。just が時をぴたりと言い当てている。"
       }
      ]
     },
@@ -14434,7 +14434,7 @@ window.BOOK_DATA = {
          "ja": "(動)cry(叫ぶ)の過去形"
         }
        ],
-       "grammar": "Help! は動詞の原形ひとつだけの命令文で、『助けて!』という決まった叫び方。'Help!' he cried. はセリフのあとに〈主語+動詞〉で言った人を示す形。"
+       "grammar": "At once は「すぐに」。called out(大声で呼んだ)と cried(さけんだ)を、セリフをはさんで前後に置いている。'Help!' は動詞1語だけで「助けて」と呼びかける言い方。"
       }
      ]
     },
@@ -14466,7 +14466,7 @@ window.BOOK_DATA = {
          "ja": "(名)顔"
         }
        ],
-       "grammar": "It was Injun Joe! の It は、直前に見えた人影を指している。It is ~ の過去形 It was ~ で『それは〜だった』と、その正体を明かす言い方。"
+       "grammar": "It was Injun Joe! の It は、見えた手や顔の持ち主を指している。saw an arm and a face のように、目に入った順に名詞をならべている。an arm and a face のように、数えられる名詞にはそれぞれ a / an がつく。"
       },
       {
        "en": "Tom was very afraid, but Injun Joe was afraid too, and he quickly ran away down the tunnel.",
@@ -14505,7 +14505,7 @@ window.BOOK_DATA = {
          "ja": "(名)トンネル、横あな"
         }
        ],
-       "grammar": "was afraid は〈be動詞+形容詞〉で『こわがっていた』。too は文の終わりについて『〜もまた』という意味を表し、but が意外なつながりを示している。"
+       "grammar": "was very afraid と was afraid too を but で対にして、二人とも同じ気持ちだったことを示している。ran away は「にげ去った」。down the tunnel の down は「(通路を)奥へ」という向きを表している。"
       }
      ]
     },
@@ -14545,7 +14545,7 @@ window.BOOK_DATA = {
          "ja": "(前)〜について/(副)およそ"
         }
        ],
-       "grammar": "did not tell は一般動詞の過去の否定文。tell her about ~ は〈tell+人+about+こと〉の語順で『(人)に〜について話す』という意味になる。"
+       "grammar": "did not tell her about〜は「彼女に〜のことを話さなかった」。tell+人+about+話題 の語順になる。went back to Becky の back は「もとの場所へ」。but が場面を切りかえている。"
       },
       {
        "en": "Tom waited for an hour, then went into a different tunnel with his string. Then a third tunnel . . .",
@@ -14588,7 +14588,7 @@ window.BOOK_DATA = {
          "ja": "(数)3番目の"
         }
        ],
-       "grammar": "waited for an hour の for は『〜のあいだ』と時間の長さを表す前置詞。Then a third tunnel . . . は動詞を省略し、余韻を残す書き方。"
+       "grammar": "waited for an hour の for は「〜の間」。a different tunnel は「別のトンネル」で、a third tunnel と数え続けている。with his string の with は「〜を持って」。道具や持ち物を表すときに使う。"
       }
      ]
     },
@@ -14615,7 +14615,7 @@ window.BOOK_DATA = {
          "ja": "(動)wait(待つ)の過去形"
         }
        ],
-       "grammar": "It was Tuesday evening の It は曜日や時を表す文の主語で、『それ』とは訳さない。It is ~ の形は、時間・曜日・天気などを言うときに使う。"
+       "grammar": "It was Tuesday evening は、曜日や時を言うときの it を主語にした文。and でつないで村のようすを続けている。Tuesday evening のように、曜日と時間帯をつなげて1つの言い方にできる。"
       },
       {
        "en": "Many of the villagers were in the cave, and they looked for the children day and night. But they heard nothing, saw nothing, and found nothing.",
@@ -14662,7 +14662,7 @@ window.BOOK_DATA = {
          "ja": "(動)find(見つける)の過去形"
         }
        ],
-       "grammar": "heard nothing, saw nothing, and found nothing は『何も〜なかった』の形を三つ並べ、not を使わずに nothing で否定を表している。"
+       "grammar": "heard nothing, saw nothing, found nothing と、nothing を3回くり返して手がかりのなさを強めている。day and night は「昼も夜も」。Many of the villagers は「村人のうちの多くが」。many of+the+名詞 の形。"
       }
      ]
     },
@@ -14714,7 +14714,7 @@ window.BOOK_DATA = {
          "ja": "(名)家"
         }
        ],
-       "grammar": "there was a sudden noise は There is ~ の過去形で『突然の物音がした』。began to run は〈begin to+動詞の原形〉で『走り始めた』。"
+       "grammar": "there was a sudden noise は「とつぜん物音がした」。began to run to〜は「〜へ走り出した」で、to が向かう先を示す。late that evening は「その日のおそい時間に」。that が特定の日を指している。"
       }
      ]
     },
@@ -14734,7 +14734,7 @@ window.BOOK_DATA = {
          "ja": "(副)ここに、ここへ"
         }
        ],
-       "grammar": "They're here! は They are here の短縮形で、『二人はここにいる』つまり『帰ってきた!』という意味。〈be動詞+here〉で人がいる場所を表している。"
+       "grammar": "They're here! は They are の短縮形を使った be動詞の文。同じことを名前を出して言い直し、知らせの喜びを表している。here は「ここに」。be動詞のあとに置いて、いる場所を表している。"
       }
      ]
     },
@@ -14766,7 +14766,7 @@ window.BOOK_DATA = {
          "ja": "(名)話"
         }
        ],
-       "grammar": "came to listen は『聞くために来た』。〈to+動詞の原形〉が『〜するために』と目的を表す to不定詞の使い方で、listen to ~ は『〜を聞く』という熟語。"
+       "grammar": "came to listen to〜の to listen は「聞くために」と目的を表す。Most of the village は「村のほとんどの人」。listen to〜は「〜に耳をかたむける」。to のあとに聞く相手や内容がくる。"
       }
      ]
     },
@@ -14794,7 +14794,7 @@ window.BOOK_DATA = {
          "ja": "(動)tell(話す)の過去形"
         }
        ],
-       "grammar": "he told them の them は、話を聞きに来た村人たちを指す代名詞。〈tell+人〉で『(人)に話す』。It was in ~ は『それは〜でのことだった』という過去の文。"
+       "grammar": "It was in the sixth tunnel の sixth は「6番目の」。he told them の told は tell の過去形で、them が聞き手を指している。It was in〜の It は、出口を見つけた場所を指している。"
       },
       {
        "en": "'I went to the end of my string, and suddenly, I could see daylight! There was a little hole in the cave wall.",
@@ -14845,7 +14845,7 @@ window.BOOK_DATA = {
          "ja": "(名)かべ"
         }
        ],
-       "grammar": "could see は〈can の過去形+動詞の原形〉で『見えた』。There was a little hole は There is ~ の過去形で『小さな穴があった』となる。"
+       "grammar": "went to the end of〜は「〜のはしまで行った」。I could see daylight の could は can の過去形で「見えた」。There was a little hole は「小さな穴があった」。単数なので was を使う。"
       },
       {
        "en": "I put my head out, and there was the river, right under my nose!",
@@ -14884,7 +14884,7 @@ window.BOOK_DATA = {
          "ja": "(名)鼻"
         }
        ],
-       "grammar": "put my head out は『頭を外に出した』で、put は過去形も同じ形。right under my nose は『鼻のすぐ下に』、つまり『すぐ目の前に』というおもしろい表現。"
+       "grammar": "put my head out は「頭を外に出した」。right under my nose の right は「ちょうど」と、位置の近さを強める言葉。and there was the river は「そこに川があった」と、目にした驚きを表している。"
       },
       {
        "en": "I went back and got Becky, and we climbed out through the hole. Then we stopped a boat on the river.",
@@ -14931,7 +14931,7 @@ window.BOOK_DATA = {
          "ja": "(名)川"
         }
        ],
-       "grammar": "went、got、climbed、stopped と過去形の動詞を and でつないで、できごとを起こった順に語っている。through the hole は『穴を通って』という意味。"
+       "grammar": "went back and got Becky と、動作を順に and でつないでいる。climbed out through the hole は「穴を通って外へはい出した」。through the hole の through は「〜を通りぬけて」。stopped a boat は「船を止めた」。"
       },
       {
        "en": "We were five miles from the mouth of the cave!'",
@@ -14958,7 +14958,7 @@ window.BOOK_DATA = {
          "ja": "(名)どうくつ"
         }
        ],
-       "grammar": "We were five miles from ~ は『〜から五マイルのところにいた』。be動詞の過去形 were のあとに距離を表す語句を続けて、自分たちのいた場所を説明している。"
+       "grammar": "We were five miles from〜は「〜から5マイルのところにいた」。距離+from+場所 で、どれだけはなれているかを表す。five miles from〜は「〜から5マイル」。miles と複数形になっている点に注意。"
       }
      ]
     },
@@ -15015,7 +15015,7 @@ window.BOOK_DATA = {
          "ja": "(動)stay(とどまる)の過去形"
         }
        ],
-       "grammar": "was tired は〈be動詞の過去形+形容詞〉で『疲れていた』。stayed there の there は『そこに(=ベッドに)』を指す副詞で、場所のくり返しをさけている。"
+       "grammar": "after his three days in the cave の after は「〜のあとで」。went to bed(ねた)と stayed there(そこにいた)を and でつないでいる。for two days は「二日間」。stayed there の there はベッドを指している。"
       },
       {
        "en": "He heard about Huck and went to see him on Sunday, and then every day. But Mrs Douglas was always in the room.",
@@ -15062,7 +15062,7 @@ window.BOOK_DATA = {
          "ja": "(名)部屋、広間"
         }
        ],
-       "grammar": "went to see him は『彼に会いに行った』で、to see が『会うために』と目的を表す to不定詞。always(いつも)のような副詞は be動詞のあとに置くことが多い。"
+       "grammar": "went to see him の to see は「会うために」と目的を表す。every day は「毎日」で、くり返しを表している。heard about〜は「〜のことを耳にした」。about が話題を示す。"
       }
      ]
     },
@@ -15090,7 +15090,7 @@ window.BOOK_DATA = {
          "ja": "(動)tell(言う、教える)の過去形"
         }
        ],
-       "grammar": "You can ~ は『〜してもよい』と許可を表す can の使い方。can は『できる』という意味だけでなく、相手に『していいよ』と伝えるときにも使われる。"
+       "grammar": "You can just say hello は「あいさつだけならいいですよ」。just が「ただ〜だけ」と範囲をかぎっている。say hello は「あいさつをする」という決まった言い方。"
       },
       {
        "en": "'And then you must go. Huck is very ill, and he needs to sleep.'",
@@ -15125,7 +15125,7 @@ window.BOOK_DATA = {
          "ja": "(動)ねむる/(名)ねむり"
         }
        ],
-       "grammar": "must go は『行かなければならない』と義務を表す must の文。needs to sleep は〈need to+動詞の原形〉で、主語が he なので needs となる。"
+       "grammar": "you must go は must+動詞の原形で「行かなければならない」。he needs to sleep の to sleep は「ねむることを」というまとまり。need to+動詞の原形で「〜する必要がある」。and then は「そしてそのあと」。"
       }
      ]
     },
@@ -15169,7 +15169,7 @@ window.BOOK_DATA = {
          "ja": "(動)言う、教える"
         }
        ],
-       "grammar": "〈could not+動詞の原形〉で『〜できなかった』。anything exciting は『何かわくわくすること』で、anything のような語では形容詞を後ろに置くのがルール。"
+       "grammar": "could not talk about anything exciting は「わくわくすることは何も話せなかった」。exciting が anything を後ろから説明している。So は「だから」。前の文が理由になっていることを示している。"
       }
      ]
     },
@@ -15217,7 +15217,7 @@ window.BOOK_DATA = {
          "ja": "(熟)come in(入ってくる)の過去形"
         }
        ],
-       "grammar": "was in Becky's house は be動詞の過去形で『家にいた』。about two weeks after ~ は『〜の約二週間後』と、時をだいたいで表す言い方。"
+       "grammar": "One day, about two weeks after the picnic と、時を表す言葉を重ねてくわしくしている。came in は「入ってきた」。in Becky's house の 's は持ち主を表し、「ベッキーの家で」となる。"
       }
      ]
     },
@@ -15265,7 +15265,7 @@ window.BOOK_DATA = {
          "ja": "(熟)いつか"
         }
        ],
-       "grammar": "Would you like to ~? は『〜したいですか』とていねいにたずねる決まった言い方。like to のあとには go のように動詞の原形が続く。"
+       "grammar": "Would you like to〜?は「〜したいですか」とていねいにたずねる言い方。Do you want to〜?よりやわらかく聞こえる。one day はここでは「いつか」。未来のはっきりしない日を指している。"
       }
      ]
     },
@@ -15305,7 +15305,7 @@ window.BOOK_DATA = {
          "ja": "(熟)〜をこわがる"
         }
        ],
-       "grammar": "I'm not afraid of ~ は be動詞の否定文で『〜がこわくない』。be afraid of のあとには、こわいと感じる相手やものを表す名詞を続ける。"
+       "grammar": "I'm not afraid of〜は be動詞のあとに not を置いた打ち消しの文。be afraid of〜で「〜をこわがる」となる。that cave の that は、前に話に出たあの洞窟を指している。"
       }
      ]
     },
@@ -15341,7 +15341,7 @@ window.BOOK_DATA = {
          "ja": "(前)〜のような"
         }
        ],
-       "grammar": "There are a lot of people は『たくさんの人がいる』という文。ここの like は『好き』ではなく、『〜のような』という意味の前置詞。"
+       "grammar": "There are a lot of people like you は「君のような人はたくさんいる」。like はここでは「好き」ではなく「〜のような」の意味。a lot of〜は「たくさんの〜」。数えられる名詞にも数えられない名詞にも使える。"
       },
       {
        "en": "But nobody's going into the cave again. There are big doors across the cave mouth now - and nobody can open them!'",
@@ -15392,7 +15392,7 @@ window.BOOK_DATA = {
          "ja": "(動)開ける/(形)開いた"
         }
        ],
-       "grammar": "nobody's going は nobody is going の短縮形。nobody が主語になると、not を使わなくても『だれも〜ない』と文全体が否定の意味になるのがポイント。"
+       "grammar": "nobody's going into〜は「だれも入らない」。nobody がすでに打ち消しなので not は使わない。across the cave mouth は「入り口をふさいで」。big doors と複数形になっているのは、扉が2枚以上あるため。"
       }
      ]
     },
@@ -15432,7 +15432,7 @@ window.BOOK_DATA = {
          "ja": "(名)どうくつ"
         }
        ],
-       "grammar": "went white の go は『行く』ではなく『(ある状態に)なる』という意味で、go white で『顔が青ざめる』。Injun Joe's は Injun Joe is の短縮形。"
+       "grammar": "Tom's face went white は「顔がまっ青になった」。go は「行く」ではなく「〜の状態になる」の意味で使われている。Injun Joe's in that cave! の 's は is の短縮形で、「〜にいる」を表している。"
       }
      ]
     },
@@ -15476,7 +15476,7 @@ window.BOOK_DATA = {
          "ja": "(名)door(ドア)の複数形"
         }
        ],
-       "grammar": "An hour later は『一時間後に』という意味で、〈時間+later〉で『〜後』を表す。were at the cave は be動詞の過去形で『洞窟に(集まって)いた』。"
+       "grammar": "An hour later は「1時間後」。fifty men were at the cave は、人数が2人以上なので be動詞に were を使っている。they opened the doors は『だれが+どうした+何を』の順の基本の文。"
       },
       {
        "en": "Injun Joe was on the ground, dead, his face to the door and his knife in his hand.",
@@ -15515,7 +15515,7 @@ window.BOOK_DATA = {
          "ja": "(名)手"
         }
        ],
-       "grammar": "was on the ground, dead は『地面に倒れて、死んでいた』。his face to the door のように〈名詞+場所〉を並べて、そのときの姿を細かく描き加えている。"
+       "grammar": "his face to the door、his knife in his hand と『何が+どこに』のまとまりをならべ、倒れていたようすを写真のように示している。dead は「死んで」という状態を表す語で、was on the ground に説明を足している。"
       }
      ]
     },
