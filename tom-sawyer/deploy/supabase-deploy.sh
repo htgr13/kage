@@ -20,6 +20,31 @@ BUCKET=${READER_BUCKET:-tom-sawyer}
 : "${SUPABASE_URL:?SUPABASE_URL を設定してください}"
 : "${SUPABASE_SERVICE_ROLE_KEY:?SUPABASE_SERVICE_ROLE_KEY を設定してください}"
 
+# 置きかえ忘れをここで止める(そのまま実行すると DNS のエラーになって分かりにくい)
+ref=${SUPABASE_URL#https://}
+ref=${ref%%.supabase.co*}
+case "$SUPABASE_URL" in
+  https://*.supabase.co*) ;;
+  *) echo "SUPABASE_URL の形が違います: $SUPABASE_URL" >&2
+     echo "  https://<project-ref>.supabase.co の形で指定してください。" >&2
+     exit 1 ;;
+esac
+case "$ref" in
+  *[!a-z0-9]*|"")
+     echo "project-ref が正しくありません: $ref" >&2
+     echo "  Supabase の管理画面を開いたときのURL" >&2
+     echo "    https://supabase.com/dashboard/project/<ここが project-ref>" >&2
+     echo "  にある英数字20文字ほどの文字列です。" >&2
+     exit 1 ;;
+esac
+case "$SUPABASE_SERVICE_ROLE_KEY" in
+  eyJ*|sb_secret_*) ;;
+  *) echo "SUPABASE_SERVICE_ROLE_KEY が正しくありません。" >&2
+     echo "  管理画面 > Project Settings > API の service_role キーです" >&2
+     echo "  (eyJ... または sb_secret_... で始まります)。" >&2
+     exit 1 ;;
+esac
+
 AUTH="Authorization: Bearer $SUPABASE_SERVICE_ROLE_KEY"
 cd "$(dirname "$0")/.."
 
