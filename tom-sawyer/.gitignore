@@ -1,0 +1,3 @@
+# パスワードファイルはコミットしない
+.htpasswd
+*.htpasswd

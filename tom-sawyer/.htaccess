@@ -1,0 +1,26 @@
+# Apache 用: Basic 認証 + 検索エンジンからの除外
+#
+# 1) パスワードファイルを作る(下の AuthUserFile のパスに合わせて置く)
+#      htpasswd -c /path/to/.htpasswd teacher
+#    または同梱の tools/make-htpasswd.sh を使う
+# 2) AuthUserFile のパスを、サーバー上の絶対パスに書きかえる
+#
+AuthType Basic
+AuthName "Tom Sawyer Reader"
+AuthUserFile /path/to/.htpasswd
+Require valid-user
+
+# 検索エンジンに載せない(認証がかかっていても念のため)
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet, noimageindex"
+</IfModule>
+
+# パスワードファイル自体は配信しない
+<Files ".htpasswd">
+  Require all denied
+</Files>
+
+# webp を正しい MIME で返す(古い設定のサーバー向け)
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+</IfModule>

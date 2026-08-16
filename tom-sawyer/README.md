@@ -16,8 +16,13 @@
 ```
 tom-sawyer/
 ├── index.html   … リーダー本体(UI)
-├── data.js      … 教材データ(本文+解説)
+├── data.js      … 教材データ(本文+解説+挿絵の対応)
+├── images/      … 挿絵29点(illust-01〜29.webp)
 ├── source/      … 章ごとの原文テキスト(データ生成の元)
+├── .htaccess    … Basic 認証 + noindex(Apache 用)
+├── robots.txt   … 全ページ巡回禁止
+├── deploy/      … nginx 用の設定例
+├── tools/       … パスワードファイル作成スクリプト
 └── README.md
 ```
 
@@ -49,3 +54,31 @@ tom-sawyer/
   - `grammar` 文法解説(中1向け)
 
 本文テキストを直したいときは `source/chN.txt` を直し、`data.js` の該当箇所も合わせて更新してください。
+
+## 公開時の保護(Basic 認証・検索よけ)
+
+教材は限られた生徒だけに見せる前提で、次の3重で保護しています。
+
+**1. ページ側**  `index.html` に `noindex, nofollow, noarchive, nosnippet, noimageindex` を指定ずみ。
+**2. サーバー側**  レスポンスヘッダー `X-Robots-Tag` と `robots.txt`(全巡回禁止)。
+**3. Basic 認証**  下記のとおり設定。
+
+### Apache(レンタルサーバーなど)
+
+```sh
+./tools/make-htpasswd.sh teacher        # パスワードファイルを作る
+```
+
+できた `.htpasswd` を公開ディレクトリの外に置き、`.htaccess` の `AuthUserFile` を
+その絶対パスに書きかえます。`mod_headers` が有効なら `X-Robots-Tag` も同時に効きます。
+
+### nginx
+
+`deploy/nginx.conf.example` を参照してください(`auth_basic` と `auth_basic_user_file`)。
+
+### 注意
+
+- `.htpasswd` は `.gitignore` 済みです。パスワードはリポジトリに入れないでください。
+- Basic 認証は通信が暗号化されていないと平文で流れます。必ず **HTTPS** で公開してください。
+- GitHub Pages は Basic 認証に対応していません。認証をかけるなら Apache / nginx / Cloudflare Access
+  などを使ってください。
