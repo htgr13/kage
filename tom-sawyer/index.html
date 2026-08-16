@@ -124,6 +124,7 @@ figure.illust img{max-width:100%; height:auto; display:block; margin:0 auto; bor
   filter:var(--illust-filter); mix-blend-mode:var(--illust-blend)}
 figure.illust figcaption{font-style:italic; font-size:.88em; color:var(--ink-soft); margin-top:.6em; line-height:1.6}
 figure.illust figcaption .cap-ja{font-style:normal; display:block; font-size:.85em; margin-top:.15em}
+figure.illust figcaption .cap-kana{font-style:normal; display:block; font-size:.82em; color:var(--river-ink); margin-top:.1em}
 
 /* 章末ナビ */
 .ch-nav{display:flex; justify-content:space-between; margin:3rem 0 0; font-size:.95rem}
@@ -153,7 +154,12 @@ figure.illust figcaption .cap-ja{font-style:normal; display:block; font-size:.85
   padding:.3rem 1.2rem 0; font-style:italic;
   display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
 }
-.sheet-body{overflow-y:auto; padding:.6rem 1.2rem 1.2rem; min-height:0}
+.sheet-kana{
+  flex:0 0 auto; font-size:.9rem; line-height:1.5; color:var(--river-ink);
+  padding:.15rem 1.2rem .1rem; letter-spacing:.02em;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+}
+.sheet-body{overflow-y:auto; padding:.5rem 1.2rem 1.2rem; min-height:0}
 .sect{margin:0 0 .95rem}
 .sect:last-child{margin-bottom:.2rem}
 .sect h3{
@@ -164,6 +170,7 @@ figure.illust figcaption .cap-ja{font-style:normal; display:block; font-size:.85
 .vocab-list{display:grid; grid-template-columns:1fr; gap:.35rem 1.6rem; margin:0; padding:0; list-style:none}
 @media (min-width:620px){ .vocab-list{grid-template-columns:1fr 1fr} }
 .vocab-list li{display:flex; gap:.6rem; align-items:baseline; font-size:.94rem; line-height:1.5}
+.vocab-list .kana{color:var(--river-ink); font-size:.86em; white-space:nowrap}
 .vocab-list .w{
   font-family:"Iowan Old Style",Charter,Georgia,serif; font-weight:700; color:var(--river-ink);
   background:var(--vocab-chip); border-radius:6px; padding:.05rem .5rem; white-space:nowrap;
@@ -234,6 +241,7 @@ figure.illust figcaption .cap-ja{font-style:normal; display:block; font-size:.85
   <div class="sheet-inner">
     <div class="grabber"></div>
     <div class="sheet-en" id="sheetEn" lang="en"></div>
+    <div class="sheet-kana jp" id="sheetKana"></div>
     <div class="sheet-body" id="sheetBody"></div>
     <div class="sheet-nav">
       <button class="navbtn" id="prevU" aria-label="前の文">‹</button>
@@ -253,6 +261,7 @@ figure.illust figcaption .cap-ja{font-style:normal; display:block; font-size:.85
   const nav = document.getElementById('chapterNav');
   const sheet = document.getElementById('sheet');
   const sheetEn = document.getElementById('sheetEn');
+  const sheetKana = document.getElementById('sheetKana');
   const sheetBody = document.getElementById('sheetBody');
   const sheetPos = document.getElementById('sheetPos');
   const store = {
@@ -312,7 +321,8 @@ figure.illust figcaption .cap-ja{font-style:normal; display:block; font-size:.85
           span.addEventListener('keydown', e => {
             if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); selectUnit(idx); }
           });
-          flat.push({ en: u.en, ja: u.ja, vocab: u.vocab || [], grammar: u.grammar || '', el: span });
+          flat.push({ en: u.en, ja: u.ja, kana: u.kana || '', vocab: u.vocab || [],
+                      grammar: u.grammar || '', el: span });
           p.appendChild(span);
         });
         reader.appendChild(p);
@@ -330,7 +340,9 @@ figure.illust figcaption .cap-ja{font-style:normal; display:block; font-size:.85
           fig.appendChild(frame);
         }
         const cap = document.createElement('figcaption');
-        cap.innerHTML = esc(item.en) + '<span class="cap-ja jp">' + esc(item.ja) + '</span>';
+        cap.innerHTML = esc(item.en) +
+          (item.kana ? '<span class="cap-kana jp">' + esc(item.kana) + '</span>' : '') +
+          '<span class="cap-ja jp">' + esc(item.ja) + '</span>';
         fig.appendChild(cap);
         reader.appendChild(fig);
       } else if (item.type === 'break'){
@@ -376,10 +388,14 @@ figure.illust figcaption .cap-ja{font-style:normal; display:block; font-size:.85
     u.el.classList.add('active');
 
     sheetEn.textContent = u.en;
+    sheetKana.textContent = u.kana || '';
+    sheetKana.style.display = u.kana ? '' : 'none';
     let html = '<div class="sect"><h3>日本語訳</h3><p class="ja-text jp">' + esc(u.ja) + '</p></div>';
     if (u.vocab.length){
       html += '<div class="sect"><h3>語句</h3><ul class="vocab-list jp">' +
-        u.vocab.map(v => '<li><span class="w" lang="en">' + esc(v.w) + '</span><span>' + esc(v.ja) + '</span></li>').join('') +
+        u.vocab.map(v => '<li><span class="w" lang="en">' + esc(v.w) + '</span>' +
+          (v.kana ? '<span class="kana">' + esc(v.kana) + '</span>' : '') +
+          '<span>' + esc(v.ja) + '</span></li>').join('') +
         '</ul></div>';
     }
     if (u.grammar){
