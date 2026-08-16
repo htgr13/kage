@@ -81,8 +81,8 @@ tom-sawyer/
 
 - `.htpasswd` は `.gitignore` 済みです。パスワードはリポジトリに入れないでください。
 - Basic 認証は通信が暗号化されていないと平文で流れます。必ず **HTTPS** で公開してください。
-- GitHub Pages は Basic 認証に対応していません。認証をかけるなら Apache / nginx / Cloudflare Access
-  などを使ってください。
+- GitHub Pages は Basic 認証に対応していません(下記の「GitHub Pages で公開する」を参照)。
+  認証もかけたい場合は Apache / nginx / Cloudflare Access / Supabase を使ってください。
 
 ### Supabase にデプロイする
 
@@ -122,3 +122,30 @@ deno test --allow-env supabase/functions/reader/lib_test.ts
 ```
 
 パスの正規化(ディレクトリ抜けの拒否を含む)と Basic 認証の判定を6件で検証しています。
+
+### GitHub Pages で公開する
+
+`.github/workflows/pages.yml` が、`tom-sawyer/` のうち読むのに必要なファイルだけを
+GitHub Pages へ配信します(`index.html` / `data.js` / `images/` / `robots.txt` の33ファイル)。
+Supabase の関数、デプロイ用スクリプト、原文テキストは公開されません。
+
+**一度だけ必要な設定**
+
+リポジトリの Settings → Pages → Build and deployment → Source を **GitHub Actions** にします。
+
+**公開のされ方**
+
+- `main` かこのブランチへの push で自動的に配信されます(手動実行も可)。
+- 既定ブランチ以外から配信する場合は、Settings → Environments → `github-pages` の
+  Deployment branches に、そのブランチを追加してください。
+- URL は `https://<ユーザー名>.github.io/<リポジトリ名>/` です。
+
+**公開範囲について**
+
+GitHub Pages のサイトは、リポジトリが private でも**誰でも閲覧できます**。
+パスワード保護つきの Pages は GitHub Enterprise Cloud 限定の機能です。
+
+検索よけとしては `index.html` の `noindex, nofollow` が働きます。
+なお `robots.txt` は、独自ドメインを使わない限り
+`https://<ユーザー名>.github.io/robots.txt`(ドメイン直下)しか参照されないため、
+プロジェクトページでは実質的に効きません。検索よけは meta タグが担います。
