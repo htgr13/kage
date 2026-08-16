@@ -24,11 +24,19 @@ AUTH="Authorization: Bearer $SUPABASE_SERVICE_ROLE_KEY"
 cd "$(dirname "$0")/.."
 
 echo "1) バケット $BUCKET を用意します(非公開)"
-curl -sS -X POST "$SUPABASE_URL/storage/v1/bucket" \
+resp=$(curl -sS -X POST "$SUPABASE_URL/storage/v1/bucket" \
   -H "$AUTH" -H 'Content-Type: application/json' \
-  -d "{\"id\":\"$BUCKET\",\"name\":\"$BUCKET\",\"public\":false}" \
-  | grep -q -e '"name"' -e 'already exists' \
-  && echo "   OK"
+  -d "{\"id\":\"$BUCKET\",\"name\":\"$BUCKET\",\"public\":false}") || {
+    echo "   $SUPABASE_URL に接続できませんでした(上の curl のエラーを参照)。" >&2
+    exit 1
+  }
+case "$resp" in
+  *'"name"'*|*'already exists'*|*'Duplicate'*) echo "   OK" ;;
+  *) echo "   バケットを作れませんでした。応答:" >&2
+     echo "   $resp" >&2
+     echo "   SUPABASE_URL とサービスロールキーを確認してください。" >&2
+     exit 1 ;;
+esac
 
 upload() {
   src=$1; dest=$2; ctype=$3
