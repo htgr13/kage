@@ -1,0 +1,7 @@
+# Supabase プロジェクト設定(この教材を配信するための最小限)
+project_id = "tom-sawyer-reader"
+
+[functions.reader]
+# ブラウザから直接開くため、Supabase の JWT 検証は使わない。
+# かわりに関数の中の Basic 認証で守る。
+verify_jwt = false

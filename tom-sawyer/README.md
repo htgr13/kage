@@ -21,7 +21,8 @@ tom-sawyer/
 ├── source/      … 章ごとの原文テキスト(データ生成の元)
 ├── .htaccess    … Basic 認証 + noindex(Apache 用)
 ├── robots.txt   … 全ページ巡回禁止
-├── deploy/      … nginx 用の設定例
+├── deploy/      … nginx 用の設定例・Supabase デプロイ手順
+├── supabase/    … Basic 認証つき Edge Function
 ├── tools/       … パスワードファイル作成スクリプト
 └── README.md
 ```
@@ -82,3 +83,42 @@ tom-sawyer/
 - Basic 認証は通信が暗号化されていないと平文で流れます。必ず **HTTPS** で公開してください。
 - GitHub Pages は Basic 認証に対応していません。認証をかけるなら Apache / nginx / Cloudflare Access
   などを使ってください。
+
+### Supabase にデプロイする
+
+Supabase Storage は静的ファイルを置けますが、Basic 認証の仕組みがありません。
+そこで、非公開バケットに教材を置き、その前に **Basic 認証つきの Edge Function** を立てます。
+
+```
+ブラウザ ──(Basic 認証)──> Edge Function ──(サービスロールキー)──> 非公開バケット
+```
+
+```sh
+export SUPABASE_PROJECT_REF=xxxxxxxxxxxxxxxxxxxx
+export SUPABASE_URL=https://$SUPABASE_PROJECT_REF.supabase.co
+export SUPABASE_SERVICE_ROLE_KEY='...'          # 管理画面 > Project Settings > API
+
+./deploy/supabase-deploy.sh                     # バケット作成 + ファイル転送
+
+supabase login
+supabase link --project-ref $SUPABASE_PROJECT_REF
+supabase secrets set BASIC_AUTH_USER=teacher BASIC_AUTH_PASSWORD='任意のパスワード'
+supabase functions deploy reader --no-verify-jwt
+```
+
+公開URLは `https://<project-ref>.supabase.co/functions/v1/reader/` です。
+
+**この構成のポイント**
+
+- バケットは非公開なので、Storage の直リンクを知られても開けません。
+- 認証情報は Supabase のシークレットに置き、コードには書きません。未設定のときは誰も通しません。
+- 応答には `X-Robots-Tag: noindex` が付き、`/robots.txt` も全巡回禁止を返します。
+- `--no-verify-jwt` は、ブラウザから apikey ヘッダーを送れないために必要です。守りは関数内の Basic 認証が担います。
+
+関数の中身のテスト:
+
+```sh
+deno test --allow-env supabase/functions/reader/lib_test.ts
+```
+
+パスの正規化(ディレクトリ抜けの拒否を含む)と Basic 認証の判定を6件で検証しています。
