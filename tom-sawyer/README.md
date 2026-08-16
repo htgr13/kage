@@ -21,16 +21,21 @@ tom-sawyer/
 └── README.md
 ```
 
-## 挿絵の入れ方
+## 挿絵
 
-本文中の挿絵は現在プレースホルダー(点線の枠)です。`data.js` の該当する
-`{"type": "caption", "en": "...", "ja": "..."}` に `"img"` キーで画像パスを追加すると表示されます。
+原書のスキャンから29点の挿絵を切り出し、`images/illust-01.webp` 〜 `illust-29.webp` として
+本文中の該当位置に配置ずみです(印刷されたキャプションは画像に含めず、UI側で英日の文字として表示)。
+見開きをまたぐ2点(illust-04・illust-22)は左右を連結してあります。
+
+差し替えるときは `data.js` の該当キャプションの `img` を書きかえてください。
 
 ```json
 {"type": "caption", "en": "Aunt Polly put out her hand and stopped him.",
  "ja": "ポリーおばさんはさっと手を出して彼をつかまえた。",
- "img": "images/ch1-01.png"}
+ "img": "images/illust-01.webp"}
 ```
+
+暗色テーマでは明るさを落として表示します(`--illust-filter`)。
 
 ## データ形式
 

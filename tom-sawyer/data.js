@@ -273,7 +273,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "Aunt Polly put out her hand and stopped him.",
-     "ja": "ポリーおばさんはさっと手を出して彼をつかまえた。"
+     "ja": "ポリーおばさんはさっと手を出して彼をつかまえた。",
+     "img": "images/illust-01.webp"
     },
     {
      "type": "para",
@@ -627,7 +628,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "Tom was the unhappiest boy in the village.",
-     "ja": "トムは村でいちばん不幸な少年だった。"
+     "ja": "トムは村でいちばん不幸な少年だった。",
+     "img": "images/illust-02.webp"
     },
     {
      "type": "para",
@@ -1006,7 +1008,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "'I am sorry, Tom,' said Joe.",
-     "ja": "「気の毒だね、トム」とジョーは言った。"
+     "ja": "「気の毒だね、トム」とジョーは言った。",
+     "img": "images/illust-03.webp"
     },
     {
      "type": "para",
@@ -1793,7 +1796,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "Tom was the richest boy in St Petersburg.",
-     "ja": "トムはセント・ピーターズバーグでいちばんの金持ち少年だった。"
+     "ja": "トムはセント・ピーターズバーグでいちばんの金持ち少年だった。",
+     "img": "images/illust-04.webp"
     },
     {
      "type": "para",
@@ -2458,7 +2462,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "'A dead cat can call ghosts out of their graves.'",
-     "ja": "「死んだネコは、幽霊を墓から呼び出せるんだぜ。」"
+     "ja": "「死んだネコは、幽霊を墓から呼び出せるんだぜ。」",
+     "img": "images/illust-05.webp"
     },
     {
      "type": "para",
@@ -2954,7 +2959,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "The teacher took his stick...",
-     "ja": "先生はむちを手に取った……。"
+     "ja": "先生はむちを手に取った……。",
+     "img": "images/illust-06.webp"
     },
     {
      "type": "para",
@@ -3561,7 +3567,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "'You draw beautifully,' said the girl.",
-     "ja": "「絵が本当にじょうずなのね」と女の子は言った。"
+     "ja": "「絵が本当にじょうずなのね」と女の子は言った。",
+     "img": "images/illust-07.webp"
     }
    ]
   },
@@ -3965,7 +3972,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "'They're not ghosts.'",
-     "ja": "「あいつらは幽霊じゃない」"
+     "ja": "「あいつらは幽霊じゃない」",
+     "img": "images/illust-08.webp"
     },
     {
      "type": "para",
@@ -4445,7 +4453,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "Injun Joe and Muff Potter began to dig.",
-     "ja": "インジャン・ジョーとマフ・ポッターは掘り始めた。"
+     "ja": "インジャン・ジョーとマフ・ポッターは掘り始めた。",
+     "img": "images/illust-09.webp"
     },
     {
      "type": "para",
@@ -4911,7 +4920,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "Injun Joe moved behind the doctor.",
-     "ja": "インジャン・ジョーは医者の背後に回り込んだ。"
+     "ja": "インジャン・ジョーは医者の背後に回り込んだ。",
+     "img": "images/illust-10.webp"
     },
     {
      "type": "para",
@@ -5611,7 +5621,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "And there Muff waited for his trial.",
-     "ja": "そしてそこでマフは裁判を待った。"
+     "ja": "そしてそこでマフは裁判を待った。",
+     "img": "images/illust-11.webp"
     },
     {
      "type": "para",
@@ -6285,7 +6296,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "They watched the boats, and fished and talked.",
-     "ja": "少年たちは船をながめ、魚をつり、おしゃべりをした。"
+     "ja": "少年たちは船をながめ、魚をつり、おしゃべりをした。",
+     "img": "images/illust-12.webp"
     },
     {
      "type": "para",
@@ -6461,7 +6473,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "They cooked some of the meat over the fire.",
-     "ja": "少年たちはたき火で肉を焼いた。"
+     "ja": "少年たちはたき火で肉を焼いた。",
+     "img": "images/illust-13.webp"
     },
     {
      "type": "para",
@@ -6651,7 +6664,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "The three boys ran down to the river to swim.",
-     "ja": "三人の少年は泳ぎに川へかけ下りた。"
+     "ja": "三人の少年は泳ぎに川へかけ下りた。",
+     "img": "images/illust-14.webp"
     },
     {
      "type": "para",
@@ -7822,7 +7836,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "Tom and Joe got quieter and quieter.",
-     "ja": "トムとジョーはだんだん静かになっていった。"
+     "ja": "トムとジョーはだんだん静かになっていった。",
+     "img": "images/illust-15.webp"
     },
     {
      "type": "para",
@@ -8230,7 +8245,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "And into the church came the three dead boys.",
-     "ja": "そして教会の中へ、死んだはずの三人の少年が入ってきた。"
+     "ja": "そして教会の中へ、死んだはずの三人の少年が入ってきた。",
+     "img": "images/illust-16.webp"
     },
     {
      "type": "para",
@@ -9051,7 +9067,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "Questions, questions, questions...",
-     "ja": "質問、質問、また質問……。"
+     "ja": "質問、質問、また質問……。",
+     "img": "images/illust-17.webp"
     },
     {
      "type": "para",
@@ -10083,12 +10100,14 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "'I've got an old pick and shovel.'",
-     "ja": "「古いつるはしとシャベルなら持ってるんだ。」"
+     "ja": "「古いつるはしとシャベルなら持ってるんだ。」",
+     "img": "images/illust-18.webp"
     },
     {
      "type": "caption",
      "en": "The boys watched through the holes in the floor.",
-     "ja": "少年たちは床の穴からのぞいて見ていた。"
+     "ja": "少年たちは床の穴からのぞいて見ていた。",
+     "img": "images/illust-19.webp"
     },
     {
      "type": "para",
@@ -11008,7 +11027,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "He began to dig with his knife.",
-     "ja": "彼はナイフで掘りはじめた。"
+     "ja": "彼はナイフで掘りはじめた。",
+     "img": "images/illust-20.webp"
     },
     {
      "type": "para",
@@ -11971,12 +11991,14 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "It was a very happy, noisy picnic.",
-     "ja": "とてもにぎやかで楽しいピクニックだった。"
+     "ja": "とてもにぎやかで楽しいピクニックだった。",
+     "img": "images/illust-21.webp"
     },
     {
      "type": "caption",
      "en": "For hours the children walked and ran through the cave.",
-     "ja": "何時間も、子どもたちは洞窟の中を歩いたり走ったりした。"
+     "ja": "何時間も、子どもたちは洞窟の中を歩いたり走ったりした。",
+     "img": "images/illust-22.webp"
     },
     {
      "type": "para",
@@ -12932,12 +12954,14 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "Sometimes Tom put a mark on the tunnel wall.",
-     "ja": "ときどきトムは、トンネルの壁に印をつけた。"
+     "ja": "ときどきトムは、トンネルの壁に印をつけた。",
+     "img": "images/illust-23.webp"
     },
     {
      "type": "caption",
      "en": "They ran into the nearest tunnel, with the bats behind them.",
-     "ja": "二人はいちばん近くのトンネルへ駆けこんだ。すぐ後ろにはコウモリたちが迫っていた。"
+     "ja": "二人はいちばん近くのトンネルへ駆けこんだ。すぐ後ろにはコウモリたちが迫っていた。",
+     "img": "images/illust-24.webp"
     },
     {
      "type": "para",
@@ -14383,7 +14407,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "Tom went down the first tunnel on his hands and knees.",
-     "ja": "トムは四つんばいになって、最初のトンネルを進んでいった。"
+     "ja": "トムは四つんばいになって、最初のトンネルを進んでいった。",
+     "img": "images/illust-25.webp"
     },
     {
      "type": "para",
@@ -14940,7 +14965,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "'Suddenly, I could see daylight!' said Tom.",
-     "ja": "「突然、日の光が見えたんだ!」とトムは言った。"
+     "ja": "「突然、日の光が見えたんだ!」とトムは言った。",
+     "img": "images/illust-26.webp"
     },
     {
      "type": "break"
@@ -15496,7 +15522,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "Injun Joe was on the ground, dead.",
-     "ja": "インジャン・ジョーは地面に倒れて死んでいた。"
+     "ja": "インジャン・ジョーは地面に倒れて死んでいた。",
+     "img": "images/illust-27.webp"
     }
    ]
   },
@@ -16128,7 +16155,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "The boys went eight miles down the river.",
-     "ja": "少年たちは川を八マイル下っていった。"
+     "ja": "少年たちは川を八マイル下っていった。",
+     "img": "images/illust-28.webp"
     },
     {
      "type": "para",
@@ -16717,7 +16745,8 @@ window.BOOK_DATA = {
     {
      "type": "caption",
      "en": "There were twelve thousand dollars in that box.",
-     "ja": "その箱には一万二千ドルが入っていた。"
+     "ja": "その箱には一万二千ドルが入っていた。",
+     "img": "images/illust-29.webp"
     }
    ]
   }

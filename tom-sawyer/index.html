@@ -18,6 +18,8 @@
   --hint:rgba(47,110,134,.45);  /* タップ可能ヒントの点線 */
   --vocab-chip:#eee5d0;
   --focus:#8a5a2b;
+  --illust-filter:none;        /* 挿絵は白地の線画。紙になじませる */
+  --illust-blend:multiply;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -25,6 +27,7 @@
     --rule:#33373c; --river:#6ea9bf; --river-wash:rgba(110,169,191,.20);
     --river-ink:#8fc0d2; --sheet:#25282c; --sheet-shadow:0 -6px 30px rgba(0,0,0,.5);
     --hint:rgba(110,169,191,.4); --vocab-chip:#31353a; --focus:#c8a06a;
+    --illust-filter:brightness(.76) contrast(1.04) sepia(.08); --illust-blend:normal;
   }
 }
 :root[data-theme="dark"]{
@@ -32,6 +35,7 @@
   --rule:#33373c; --river:#6ea9bf; --river-wash:rgba(110,169,191,.20);
   --river-ink:#8fc0d2; --sheet:#25282c; --sheet-shadow:0 -6px 30px rgba(0,0,0,.5);
   --hint:rgba(110,169,191,.4); --vocab-chip:#31353a; --focus:#c8a06a;
+    --illust-filter:brightness(.76) contrast(1.04) sepia(.08); --illust-blend:normal;
 }
 
 /* ---------- base ---------- */
@@ -114,7 +118,8 @@ figure.illust .frame{
   border:1px dashed var(--rule); border-radius:8px; padding:1.6em 1em; color:var(--ink-soft);
   font-size:.8em; letter-spacing:.15em;
 }
-figure.illust img{max-width:100%; border-radius:8px; display:block; margin:0 auto}
+figure.illust img{max-width:100%; height:auto; display:block; margin:0 auto; border-radius:4px;
+  filter:var(--illust-filter); mix-blend-mode:var(--illust-blend)}
 figure.illust figcaption{font-style:italic; font-size:.88em; color:var(--ink-soft); margin-top:.6em; line-height:1.6}
 figure.illust figcaption .cap-ja{font-style:normal; display:block; font-size:.85em; margin-top:.15em}
 
